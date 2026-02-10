@@ -1,0 +1,4 @@
+l_english:
+  ASO: "Airstrip One"
+  ASO_DEF: "Airstrip One"
+  

@@ -1,0 +1,91 @@
+capital = 64
+
+#oob = "DPF_1936"
+
+set_politics = {
+  ruling_party = conservative_dem
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_party_name = { 
+   
+}
+
+
+set_popularities = {
+    populist = 5
+    conservative_dem = 32
+    liberal_dem = 28
+    authoritarianist = 10
+    liberal_socialist = 13
+    radical_socialist = 7
+    mysticist = 5
+}
+
+set_autonomy = {
+    target = AZS
+    autonomous_state = autonomy_auto_district
+}
+
+
+recruit_character = RGD_wilhelm_marx
+
+
+
+
+
+### BUNDESRAT
+#########################################
+
+set_country_flag = RGD_bundesrat_active_flag
+
+### Total Representatives
+
+set_variable = { BR_AZS_total = 0 } # 8 after annex
+set_variable = { BR_BDN_total = 5 }
+set_variable = { BR_BNS_total = 3 }
+set_variable = { BR_BRN_total = 12 }
+set_variable = { BR_BYR_total = 12 }
+set_variable = { BR_HMB_total = 2 }
+set_variable = { BR_HNV_total = 10 }
+set_variable = { BR_HSS_total = 8 }
+set_variable = { BR_KRN_total = 0 } # 4 after integration
+set_variable = { BR_MCK_total = 3 }
+set_variable = { BR_OST_total = 15 }
+set_variable = { BR_POM_total = 4 }
+set_variable = { BR_RHN_total = 10 }
+set_variable = { BR_SAA_total = 4 }
+set_variable = { BR_SAC_total = 8 }
+set_variable = { BR_THU_total = 6 }
+set_variable = { BR_TIR_total = 8 }
+set_variable = { BR_WPL_total = 5 }
+set_variable = { BR_WTT_total = 7 }
+
+
+
+### Representatives in Support at start
+
+set_variable = { BR_AZS_support = 0 } # 6 after annex
+set_variable = { BR_BDN_support = 5 }
+set_variable = { BR_BNS_support = 3 }
+set_variable = { BR_BRN_support = 8 }
+set_variable = { BR_BYR_support = 10 }
+set_variable = { BR_HMB_support = 1 }
+set_variable = { BR_HNV_support = 7 }
+set_variable = { BR_HSS_support = 6 }
+set_variable = { BR_KRN_support = 0 } # 3 after integration
+set_variable = { BR_MCK_support = 1 }
+set_variable = { BR_OST_support = 9 }
+set_variable = { BR_POM_support = 1 }
+set_variable = { BR_RHN_support = 7 }
+set_variable = { BR_SAA_support = 3 }
+set_variable = { BR_SAC_support = 4 }
+set_variable = { BR_THU_support = 3 }
+set_variable = { BR_TIR_support = 3 }
+set_variable = { BR_WPL_support = 3 }
+set_variable = { BR_WTT_support = 6 }
+
+
+

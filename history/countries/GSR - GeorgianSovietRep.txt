@@ -1,0 +1,31 @@
+capital = 231
+
+#oob = "GSR_1936"
+
+set_politics = {
+  ruling_party = radical_socialist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_party_name = { 
+   
+}
+
+
+set_popularities = {
+    populist = 0
+    conservative_dem = 0
+    liberal_dem = 0
+    authoritarianist = 32
+    liberal_socialist = 18
+    radical_socialist = 49
+    mysticist = 1
+}
+
+
+#recruit_character =
+
+
+

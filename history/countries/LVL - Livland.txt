@@ -1,0 +1,26 @@
+capital = 808
+
+#oob = "LIK_1936"
+
+set_politics = {
+  ruling_party = liberal_dem
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_popularities = {
+    populist = 46
+    conservative_dem = 1
+    liberal_dem = 47
+    authoritarianist = 0
+    liberal_socialist = 0
+    radical_socialist = 1
+    mysticist = 5
+}
+
+#recruit_character = 
+
+add_ideas = {
+
+}

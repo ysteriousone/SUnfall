@@ -1,0 +1,20 @@
+state={
+	id=825
+	name="STATE_825"
+	resources={
+		oil=7.000
+	}
+
+	history = {
+
+		owner = SIB
+	}
+
+	provinces={
+		198 6040 9205 11047 11119 
+	}
+	manpower=2300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

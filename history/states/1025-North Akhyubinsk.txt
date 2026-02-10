@@ -1,0 +1,25 @@
+state={
+	id=1025
+	name="STATE_1025"
+
+	history={
+		owner = KZA
+		victory_points = {
+			7341 1
+		}
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = KZA
+
+	}
+
+	provinces={
+		1247 1429 4254 4294 4394 7313 7341 7370 7410 10253 12227 12235 12254 
+	}
+	manpower=66854
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

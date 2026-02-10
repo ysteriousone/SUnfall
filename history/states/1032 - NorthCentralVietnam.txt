@@ -1,0 +1,30 @@
+
+state={
+	id=1032
+	name="STATE_1032"
+	manpower = 1000000
+	
+	state_category = town
+	
+	resources={
+
+	}
+
+
+	history={
+		add_core_of = RVE
+		owner = RVE
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+		}
+
+	}
+
+	provinces={
+		1302 4379
+	}
+
+	local_supplies=0.0 
+}

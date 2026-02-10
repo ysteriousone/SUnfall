@@ -1,0 +1,433 @@
+guiTypes = {
+	containerWindowType = {
+		name = "Bundesrat_gui"
+		position = { x = 0 y = 0 }
+		size = { width = 525 height = 1000 }
+		moveable = no
+		clipping = yes
+		
+		instantTextBoxType = {
+			name = "BR_topbar_header"
+			position = { x = 30 y = 12}
+			orientation = upper_left
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "Countrywide Support"
+			maxWidth = 440
+			maxHeight = 20
+			format = center
+		}
+
+
+		iconType = {
+			name = "BR_FULL_support_bar"
+			position = { x = 25 y = 40 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_FULL_bar_tt"
+		}
+
+
+		instantTextBoxType = {
+			name = "BR_selection_header"
+			position = { x = 30 y = 850}
+			orientation = upper_left
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "[ROOT.BR_selection_name]"
+			maxWidth = 440
+			maxHeight = 20
+			format = center
+		}
+
+
+		iconType = {
+			name = "BR_AZS_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_AZS_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_BDN_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_BDN_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_BNS_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_BNS_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_BRN_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_BRN_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_BYR_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_BYR_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_HMB_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_HMB_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_HNV_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_HNV_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_HSS_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_HSS_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_KRN_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_KRN_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_MCK_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_MCK_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_OST_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_OST_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_POM_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_POM_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_RHN_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_RHN_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_SAA_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_SAA_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_SAC_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_SAC_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_THU_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_THU_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_TIR_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_TIR_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_WPL_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_WPL_bar_tt"
+		}
+
+		iconType = {
+			name = "BR_WTT_support_bar"
+			position = { x = 25 y = 900 }
+			spriteType = "GFX_BR_support_bar"
+			pdx_tooltip = "RGD_BR_WTT_bar_tt"
+		}
+
+
+		iconType = {
+			name = "Bundesrat_background"
+			quadTextureSprite = "GFX_Bundesrat_BG"
+			position = { x = 5 y = 100 }
+		}
+
+
+		buttonType = {
+			name = "BR_AZS_button"
+			spriteType = "GFX_Bundesrat_AZS"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_AZS_tt"
+		}
+
+		buttonType = {
+			name = "BR_BDN_button"
+			spriteType = "GFX_Bundesrat_BDN"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_BDN_tt"
+		}
+
+		buttonType = {
+			name = "BR_BNS_button"
+			spriteType = "GFX_Bundesrat_BNS"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_BNS_tt"
+		}
+
+		buttonType = {
+			name = "BR_BRN_button"
+			spriteType = "GFX_Bundesrat_BRN"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_BRN_tt"
+		}
+
+		buttonType = {
+			name = "BR_BYR_button"
+			spriteType = "GFX_Bundesrat_BYR"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_BYR_tt"
+		}
+
+		buttonType = {
+			name = "BR_HMB_button"
+			spriteType = "GFX_Bundesrat_HMB"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_HMB_tt"
+		}
+
+		buttonType = {
+			name = "BR_HNV_button"
+			spriteType = "GFX_Bundesrat_HNV"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_HNV_tt"
+		}
+
+		buttonType = {
+			name = "BR_HSS_button"
+			spriteType = "GFX_Bundesrat_HSS"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_HSS_tt"
+		}
+
+		buttonType = {
+			name = "BR_KRN_button"
+			spriteType = "GFX_Bundesrat_KRN"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_KRN_tt"
+		}
+
+		buttonType = {
+			name = "BR_MCK_button"
+			spriteType = "GFX_Bundesrat_MCK"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_MCK_tt"
+		}
+
+		buttonType = {
+			name = "BR_OST_button"
+			spriteType = "GFX_Bundesrat_OST"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_OST_tt"
+		}
+
+		buttonType = {
+			name = "BR_POM_button"
+			spriteType = "GFX_Bundesrat_POM"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_POM_tt"
+		}
+
+		buttonType = {
+			name = "BR_RHN_button"
+			spriteType = "GFX_Bundesrat_RHN"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_RHN_tt"
+		}
+
+		buttonType = {
+			name = "BR_SAA_button"
+			spriteType = "GFX_Bundesrat_SAA"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_SAA_tt"
+		}
+
+		buttonType = {
+			name = "BR_SAC_button"
+			spriteType = "GFX_Bundesrat_SAC"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_SAC_tt"
+		}
+
+		buttonType = {
+			name = "BR_THU_button"
+			spriteType = "GFX_Bundesrat_THU"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_THU_tt"
+		}
+
+		buttonType = {
+			name = "BR_TIR_button"
+			spriteType = "GFX_Bundesrat_TIR"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_TIR_tt"
+		}
+
+		buttonType = {
+			name = "BR_WPL_button"
+			spriteType = "GFX_Bundesrat_WPL"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_WPL_tt"
+		}
+
+		buttonType = {
+			name = "BR_WTT_button"
+			spriteType = "GFX_Bundesrat_WTT"
+			position = { x = 5 y = 100 }
+			pdx_tooltip = "RGD_BR_WTT_tt"
+		}
+
+
+		iconType = {
+			name = "BR_BYR_coa"
+			quadTextureSprite = "GFX_BR_BYR_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_AZS_coa"
+			quadTextureSprite = "GFX_BR_AZS_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_BDN_coa"
+			quadTextureSprite = "GFX_BR_BDN_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_BNS_coa"
+			quadTextureSprite = "GFX_BR_BNS_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_BRN_coa"
+			quadTextureSprite = "GFX_BR_BRN_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_HMB_coa"
+			quadTextureSprite = "GFX_BR_HMB_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_HNV_coa"
+			quadTextureSprite = "GFX_BR_HNV_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_HSS_coa"
+			quadTextureSprite = "GFX_BR_HSS_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_KRN_coa"
+			quadTextureSprite = "GFX_BR_KRN_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_MCK_coa"
+			quadTextureSprite = "GFX_BR_MCK_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_OST_coa"
+			quadTextureSprite = "GFX_BR_OST_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_POM_coa"
+			quadTextureSprite = "GFX_BR_POM_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_RHN_coa"
+			quadTextureSprite = "GFX_BR_RHN_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_SAA_coa"
+			quadTextureSprite = "GFX_BR_SAA_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_SAC_coa"
+			quadTextureSprite = "GFX_BR_SAC_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_THU_coa"
+			quadTextureSprite = "GFX_BR_THU_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_TIR_coa"
+			quadTextureSprite = "GFX_BR_TIR_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_WPL_coa"
+			quadTextureSprite = "GFX_BR_WPL_coa"
+			position = { x = 5 y = 740 }
+		}
+
+		iconType = {
+			name = "BR_WTT_coa"
+			quadTextureSprite = "GFX_BR_WTT_coa"
+			position = { x = 5 y = 740 }
+		}
+
+	}
+}

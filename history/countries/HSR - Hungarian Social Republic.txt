@@ -1,0 +1,38 @@
+capital = 43
+
+oob = "HSR_1936"
+
+set_politics = {
+  ruling_party = communism
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_party_name = { 
+    ideology = communism
+    long_name = HSR_communism_party_long
+    name = HSR_communism_party
+}
+add_ideas = {
+		undeveloped_industry
+		food_shortages
+    red_victory
+    hungarian_red_army
+}
+
+
+set_popularities = {
+    populist = 0
+    conservative_dem = 0
+    liberal_dem = 5
+    authoritarianist = 12
+    liberal_socialist = 23
+    radical_socialist = 60
+    mysticist = 0
+}
+
+recruit_character = HSR_bela_kun
+
+
+

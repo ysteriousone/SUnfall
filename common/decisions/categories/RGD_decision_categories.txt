@@ -1,0 +1,13 @@
+RGD_bundesrat_gui_category = {
+	icon = generic_political_actions
+	
+	priority = 100
+
+	allowed = {
+		always = yes 
+	}
+	visible = {
+		has_country_flag = RGD_bundesrat_active_flag
+	}
+	scripted_gui = RGD_Bundesrat_scripted_gui
+}

@@ -1,0 +1,708 @@
+scripted_gui = {
+	RGD_Bundesrat_scripted_gui = {
+		window_name = "Bundesrat_gui"
+		context_type = decision_category
+		#dirty = refresh_Bundesrat
+
+		properties = {
+			BR_FULL_support_bar = {
+				frame = BR_FULL_frame
+			}
+
+			BR_AZS_support_bar = {
+				frame = BR_AZS_frame
+			}
+
+			BR_BDN_support_bar = {
+				frame = BR_BDN_frame
+			}
+
+			BR_BNS_support_bar = {
+				frame = BR_BNS_frame
+			}
+
+			BR_BRN_support_bar = {
+				frame = BR_BRN_frame
+			}
+
+			BR_BYR_support_bar = {
+				frame = BR_BYR_frame
+			}
+
+			BR_HMB_support_bar = {
+				frame = BR_HMB_frame
+			}
+
+			BR_HNV_support_bar = {
+				frame = BR_HNV_frame
+			}
+
+			BR_HSS_support_bar = {
+				frame = BR_HSS_frame
+			}
+
+			BR_KRN_support_bar = {
+				frame = BR_KRN_frame
+			}
+
+			BR_MCK_support_bar = {
+				frame = BR_MCK_frame
+			}
+
+			BR_OST_support_bar = {
+				frame = BR_OST_frame
+			}
+
+			BR_POM_support_bar = {
+				frame = BR_POM_frame
+			}
+
+			BR_RHN_support_bar = {
+				frame = BR_RHN_frame
+			}
+
+			BR_SAA_support_bar = {
+				frame = BR_SAA_frame
+			}
+
+			BR_SAC_support_bar = {
+				frame = BR_SAC_frame
+			}
+
+			BR_THU_support_bar = {
+				frame = BR_THU_frame
+			}
+
+			BR_TIR_support_bar = {
+				frame = BR_TIR_frame
+			}
+
+			BR_WPL_support_bar = {
+				frame = BR_WPL_frame
+			}
+
+			BR_WTT_support_bar = {
+				frame = BR_WTT_frame
+			}
+		}
+
+
+		triggers = {
+			BR_AZS_support_bar_visible = {
+				has_country_flag = BR_AZS_selected_flag
+			}
+
+			BR_BDN_support_bar_visible = {
+				has_country_flag = BR_BDN_selected_flag
+			}
+
+			BR_BNS_support_bar_visible = {
+				has_country_flag = BR_BNS_selected_flag
+			}
+
+			BR_BRN_support_bar_visible = {
+				has_country_flag = BR_BRN_selected_flag
+			}
+
+			BR_BYR_support_bar_visible = {
+				has_country_flag = BR_BYR_selected_flag
+			}
+
+			BR_HMB_support_bar_visible = {
+				has_country_flag = BR_HMB_selected_flag
+			}
+
+			BR_HNV_support_bar_visible = {
+				has_country_flag = BR_HNV_selected_flag
+			}
+
+			BR_HSS_support_bar_visible = {
+				has_country_flag = BR_HSS_selected_flag
+			}
+
+			BR_KRN_support_bar_visible = {
+				has_country_flag = BR_KRN_selected_flag
+			}
+
+			BR_MCK_support_bar_visible = {
+				has_country_flag = BR_MCK_selected_flag
+			}
+
+			BR_OST_support_bar_visible = {
+				has_country_flag = BR_OST_selected_flag
+			}
+
+			BR_POM_support_bar_visible = {
+				has_country_flag = BR_POM_selected_flag
+			}
+
+			BR_RHN_support_bar_visible = {
+				has_country_flag = BR_RHN_selected_flag
+			}
+
+			BR_SAA_support_bar_visible = {
+				has_country_flag = BR_SAA_selected_flag
+			}
+
+			BR_SAC_support_bar_visible = {
+				has_country_flag = BR_SAC_selected_flag
+			}
+
+			BR_THU_support_bar_visible = {
+				has_country_flag = BR_THU_selected_flag
+			}
+
+			BR_TIR_support_bar_visible = {
+				has_country_flag = BR_TIR_selected_flag
+			}
+
+			BR_WPL_support_bar_visible = {
+				has_country_flag = BR_WPL_selected_flag
+			}
+
+			BR_WTT_support_bar_visible = {
+				has_country_flag = BR_WTT_selected_flag
+			}
+
+
+			BR_BYR_coa_visible = {
+				has_country_flag = BR_BYR_selected_flag
+			}
+
+			BR_AZS_coa_visible = {
+				has_country_flag = BR_AZS_selected_flag
+			}
+
+			BR_BDN_coa_visible = {
+				has_country_flag = BR_BDN_selected_flag
+			}
+
+			BR_BNS_coa_visible = {
+				has_country_flag = BR_BNS_selected_flag
+			}
+
+			BR_BRN_coa_visible = {
+				has_country_flag = BR_BRN_selected_flag
+			}
+
+			BR_HMB_coa_visible = {
+				has_country_flag = BR_HMB_selected_flag
+			}
+
+			BR_HNV_coa_visible = {
+				has_country_flag = BR_HNV_selected_flag
+			}
+
+			BR_HSS_coa_visible = {
+				has_country_flag = BR_HSS_selected_flag
+			}
+
+			BR_KRN_coa_visible = {
+				has_country_flag = BR_KRN_selected_flag
+			}
+
+			BR_MCK_coa_visible = {
+				has_country_flag = BR_MCK_selected_flag
+			}
+
+			BR_OST_coa_visible = {
+				has_country_flag = BR_OST_selected_flag
+			}
+
+			BR_POM_coa_visible = {
+				has_country_flag = BR_POM_selected_flag
+			}
+
+			BR_RHN_coa_visible = {
+				has_country_flag = BR_RHN_selected_flag
+			}
+
+			BR_SAA_coa_visible = {
+				has_country_flag = BR_SAA_selected_flag
+			}
+
+			BR_SAC_coa_visible = {
+				has_country_flag = BR_SAC_selected_flag
+			}
+
+			BR_THU_coa_visible = {
+				has_country_flag = BR_THU_selected_flag
+			}
+
+			BR_TIR_coa_visible = {
+				has_country_flag = BR_TIR_selected_flag
+			}
+
+			BR_WPL_coa_visible = {
+				has_country_flag = BR_WPL_selected_flag
+			}
+
+			BR_WTT_coa_visible = {
+				has_country_flag = BR_WTT_selected_flag
+			}
+		}
+
+
+		effects = {
+			BR_AZS_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_AZS_selected_flag
+			}
+
+			BR_BDN_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_BDN_selected_flag
+			}
+
+			BR_BNS_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_BNS_selected_flag
+			}
+
+			BR_BRN_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_BRN_selected_flag
+			}
+
+			BR_BYR_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_BYR_selected_flag
+			}
+
+			BR_HMB_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_HMB_selected_flag
+			}
+
+			BR_HNV_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_HNV_selected_flag
+			}
+
+			BR_HSS_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_HSS_selected_flag
+			}
+
+			BR_KRN_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_KRN_selected_flag
+			}
+
+			BR_MCK_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_MCK_selected_flag
+			}
+
+			BR_OST_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_OST_selected_flag
+			}
+
+			BR_POM_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_POM_selected_flag
+			}
+
+			BR_RHN_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_RHN_selected_flag
+			}
+
+			BR_SAA_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_SAA_selected_flag
+			}
+
+			BR_SAC_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_SAC_selected_flag
+			}
+
+			BR_THU_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_THU_selected_flag
+			}
+
+			BR_TIR_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_TIR_selected_flag
+			}
+
+			BR_WPL_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_WPL_selected_flag
+			}
+
+			BR_WTT_button_click = {
+				clr_country_flag = BR_AZS_selected_flag
+				clr_country_flag = BR_BDN_selected_flag
+				clr_country_flag = BR_BNS_selected_flag
+				clr_country_flag = BR_BRN_selected_flag
+				clr_country_flag = BR_BYR_selected_flag
+				clr_country_flag = BR_HMB_selected_flag
+				clr_country_flag = BR_HNV_selected_flag
+				clr_country_flag = BR_HSS_selected_flag
+				clr_country_flag = BR_KRN_selected_flag
+				clr_country_flag = BR_MCK_selected_flag
+				clr_country_flag = BR_OST_selected_flag
+				clr_country_flag = BR_POM_selected_flag
+				clr_country_flag = BR_RHN_selected_flag
+				clr_country_flag = BR_SAA_selected_flag
+				clr_country_flag = BR_SAC_selected_flag
+				clr_country_flag = BR_THU_selected_flag
+				clr_country_flag = BR_TIR_selected_flag
+				clr_country_flag = BR_WPL_selected_flag
+				clr_country_flag = BR_WTT_selected_flag
+
+				set_country_flag = BR_WTT_selected_flag
+			}
+
+
+		}
+
+
+	}
+}

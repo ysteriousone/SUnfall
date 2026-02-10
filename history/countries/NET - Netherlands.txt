@@ -1,0 +1,33 @@
+capital = 7
+
+#oob = "NET_1936"
+
+set_politics = {
+  ruling_party = liberal_dem
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_party_name = { 
+   
+}
+
+
+set_popularities = {
+    populist = 4
+    conservative_dem = 21
+    liberal_dem = 32
+    authoritarianist = 8
+    liberal_socialist = 16
+    radical_socialist = 12
+    mysticist = 7
+}
+
+
+
+
+#recruit_character =
+
+
+

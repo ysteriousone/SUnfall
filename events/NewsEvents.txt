@@ -1,0 +1,24 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = SUN_news
+
+# Herbert Kitchener dies 
+news_event = {
+	id = SUN_news.1
+	title = SUN_news.1.t
+	desc = SUN_news.1.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = SUN_news.1.a
+		
+	}
+	
+	
+}

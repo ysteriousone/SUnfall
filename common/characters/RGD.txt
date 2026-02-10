@@ -1,0 +1,14 @@
+characters = {
+	RGD_wilhelm_marx = {
+		name = "Wilhelm Marx"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RGD/portrait_wilhelm_marx.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_condem_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

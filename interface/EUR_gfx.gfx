@@ -1,0 +1,30 @@
+spriteTypes = {	
+
+	### Ideas ###
+	
+	SpriteType = {
+		name = "GFX_idea_EUR_cradle"
+		texturefile = "gfx/interface/ideas/EUR/eur_cradle.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_EUR_expedition"
+		texturefile = "gfx/interface/ideas/EUR/eur_expedition.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_EUR_religion"
+		texturefile = "gfx/interface/ideas/EUR/eur_religion.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_EUR_hardships"
+		texturefile = "gfx/interface/ideas/EUR/eur_hardships.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_EUR_tributary"
+		texturefile = "gfx/interface/ideas/EUR/eur_tributary.dds"
+	}
+	
+}

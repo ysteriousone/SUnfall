@@ -1,0 +1,14 @@
+characters = {
+	AKH_pavel_dybenko = {
+		name = "Pavel Dybenko"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AKH/portrait_pavel_dybenko.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_auth_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

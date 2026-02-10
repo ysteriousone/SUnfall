@@ -1,0 +1,28 @@
+capital = 1021
+
+#oob = "MIR_1936"
+
+set_politics = {
+  ruling_party = authoritarianist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_popularities = {
+    populist = 10
+    conservative_dem = 2
+    liberal_dem = 0
+    authoritarianist = 88
+    liberal_socialist = 0
+    radical_socialist = 00
+    mysticist = 0
+}
+
+recruit_character = MIR_wragnel
+
+add_ideas = {
+	MIR_white_barons_grip
+	MIR_never_ending_fight
+	MIR_supplying_base
+}

@@ -1,0 +1,31 @@
+capital = 439
+
+#oob = "IFS_1936"
+
+set_politics = {
+  ruling_party = liberal_dem
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_party_name = { 
+   
+}
+
+
+set_popularities = {
+    populist = 9
+    conservative_dem = 11
+    liberal_dem = 25
+    authoritarianist = 25
+    liberal_socialist = 10
+    radical_socialist = 10
+    mysticist = 10
+}
+
+
+recruit_character = IFS_sapru
+
+
+

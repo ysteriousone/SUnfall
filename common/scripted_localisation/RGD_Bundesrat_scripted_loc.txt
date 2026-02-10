@@ -1,0 +1,121 @@
+defined_text = {
+	name = BR_selection_name
+	text = {
+		trigger = {
+			has_country_flag = BR_AZS_selected_flag
+		}
+		localization_key = BR_selection_name_AZS
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_BDN_selected_flag
+		}
+		localization_key = BR_selection_name_BDN
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_BNS_selected_flag
+		}
+		localization_key = BR_selection_name_BNS
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_BRN_selected_flag
+		}
+		localization_key = BR_selection_name_BRN
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_BYR_selected_flag
+		}
+		localization_key = BR_selection_name_BYR
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_HMB_selected_flag
+		}
+		localization_key = BR_selection_name_HMB
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_HNV_selected_flag
+		}
+		localization_key = BR_selection_name_HNV
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_HSS_selected_flag
+		}
+		localization_key = BR_selection_name_HSS
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_KRN_selected_flag
+		}
+		localization_key = BR_selection_name_KRN
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_MCK_selected_flag
+		}
+		localization_key = BR_selection_name_MCK
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_OST_selected_flag
+		}
+		localization_key = BR_selection_name_OST
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_POM_selected_flag
+		}
+		localization_key = BR_selection_name_POM
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_RHN_selected_flag
+		}
+		localization_key = BR_selection_name_RHN
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_SAA_selected_flag
+		}
+		localization_key = BR_selection_name_SAA
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_SAC_selected_flag
+		}
+		localization_key = BR_selection_name_SAC
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_THU_selected_flag
+		}
+		localization_key = BR_selection_name_THU
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_TIR_selected_flag
+		}
+		localization_key = BR_selection_name_TIR
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_WPL_selected_flag
+		}
+		localization_key = BR_selection_name_WPL
+	}
+	text = {
+		trigger = {
+			has_country_flag = BR_WTT_selected_flag
+		}
+		localization_key = BR_selection_name_WTT
+	}
+
+    text = {
+		localization_key = BR_selection_name_NONE
+	}
+}

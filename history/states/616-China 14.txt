@@ -1,0 +1,31 @@
+state = {
+	id = 616
+	name = "STATE_616"
+
+	history = {
+
+		owner = LTP
+		add_core_of = LTP
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			8127 2 #Yinchuan
+		}
+		
+		victory_points = {
+			12732 10
+		}
+	}
+
+	provinces = {
+		1630 3742 5031 5057 5100 7511 8055 8081 8127 10724 12327 12732 12750 12776 
+	}
+	manpower = 2077600
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+
+	local_supplies = 0.0 
+}

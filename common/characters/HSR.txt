@@ -1,0 +1,14 @@
+characters = {
+	HSR_bela_kun = {
+		name = "Bela Kun"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HSR/portrait_bela_kun.dds"
+			}
+		}
+		country_leader = {
+			ideology = soviet_radsoc_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

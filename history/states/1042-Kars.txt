@@ -1,0 +1,25 @@
+state={
+	id=1042
+	name="STATE_1042"
+
+	history={
+		owner = AMN
+
+		victory_points = {
+			10472 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = AMN
+	}
+
+	provinces={
+		789 6976 6991 7454 10403 10472 11853 
+	}
+	manpower=168747
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

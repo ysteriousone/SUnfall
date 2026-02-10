@@ -1,0 +1,26 @@
+capital = 286
+
+#oob = "KVE_1936"
+
+set_politics = {
+  ruling_party = authoritarianist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_popularities = {
+    populist = 15
+    conservative_dem = 20
+    liberal_dem = 3
+    authoritarianist = 32
+    liberal_socialist = 5
+    radical_socialist = 25
+    mysticist = 0
+}
+
+#recruit_character = 
+
+add_ideas = {
+
+}

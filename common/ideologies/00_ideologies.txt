@@ -1,0 +1,263 @@
+ideologies = {
+
+    radical_socialist = {
+		types = {
+			radical_socialist_generic_sub = {} #generic
+
+			anarchist_radsoc_sub = {can_be_randomly_selected = no color = { 30 0 0 } } # Anarchism
+
+			nihilist_radsoc_sub = {can_be_randomly_selected = no color = { 0 0 0 } } # Nihilism
+
+			dzhugashvilist_radsoc_sub = {can_be_randomly_selected = no} # Dzhugashvilism (aka Stalinism)
+
+			techno_radsoc_sub = {can_be_randomly_selected = no} # Technocracy
+
+			soviet_radsoc_sub = {can_be_randomly_selected = no} # Soviet Socialism
+
+		}
+		dynamic_faction_names = {
+			"#"
+		}
+		color = { 81 15 15 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+    liberal_socialist = {
+		types = {
+			liberal_socialist_generic_sub = {} #generic
+
+			marx_libsoc_sub = {can_be_randomly_selected = no} # Marxism
+
+			humanist_libsoc_sub = {can_be_randomly_selected = no} # Humanism
+
+			syndicat_libsoc_sub = {can_be_randomly_selected = no} # Syndicalism
+
+		}
+		dynamic_faction_names = {
+			"#"
+		}
+		color = { 130 70 70 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+    liberal_dem = {
+		types = {
+			liberal_dem_generic_sub = {} #generic
+
+			socdem_libdem_sub = {can_be_randomly_selected = no color = { 212 4 208 } } # Social Democracy
+
+			liblism_libdem_sub = {can_be_randomly_selected = no} # Liberalism
+
+		}
+		dynamic_faction_names = {
+			"#"
+		}
+		color = { 78 104 122 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+    conservative_dem = {
+		types = {
+			conservative_dem_generic_sub = {} #generic
+
+			christian_condem_sub = {can_be_randomly_selected = no} # Christian Conservatism
+
+			monarch_condem_sub = {can_be_randomly_selected = no} # Constitutional Monarchism
+
+		}
+		dynamic_faction_names = {
+			"#"
+		}
+		color = { 34 45 53 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+    authoritarianist = {
+		types = {
+			authoritarianist_generic_sub = {} #generic
+
+			military_auth_sub = {can_be_randomly_selected = no} # Military Junta
+
+			colonial_auth_sub = {can_be_randomly_selected = no} # Colonial Administration
+
+			monarch_auth_sub = {can_be_randomly_selected = no} # Monarchism
+
+			tribal_auth_sub = {can_be_randomly_selected = no} # Tribalism
+
+			guided_auth_sub = {can_be_randomly_selected = no} # Guided Democracy
+
+			corporate_auth_sub = {can_be_randomly_selected = no} # Corporatism
+
+			aristo_monrch_auth_sub = {can_be_randomly_selected = no} # Aristocratic Monarchy
+
+		}
+		dynamic_faction_names = {
+			"#"
+		}
+		color = { 58 58 58 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+    populist = {
+		types = {
+			populist_generic_sub = {} #generic
+
+			strasser_populist_sub = {can_be_randomly_selected = no color = { 110 39 11 } } # Strasserism
+
+			ultnat_populist_sub = {can_be_randomly_selected = no} # Ultrnationalism
+
+			volk_populist_sub = {can_be_randomly_selected = no} # Völkisch
+
+		}
+		dynamic_faction_names = {
+			"#"
+		}
+		color = { 73 49 33 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+    mysticist = {
+		types = {
+			myst_generic_sub = {} #generic
+
+			solar_myst_sub = {can_be_randomly_selected = no color = { 224 224 148 } } # Solarism
+
+			pagan_myst_sub = {can_be_randomly_selected = no} # Paganism
+
+			christ_myst_sub = {can_be_randomly_selected = no} # Christian Theocracy
+
+			islam_myst_sub = {can_be_randomly_selected = no} # Islamic Theo.
+
+			satan_myst_sub = {can_be_randomly_selected = no} # Satanism
+
+			aryan_myst_sub = {can_be_randomly_selected = no} # Aryanism (Himmler)
+
+			occult_myst_sub = {can_be_randomly_selected = no} # Occultism
+
+		}
+		dynamic_faction_names = {
+			"#"
+		}
+		color = { 46 29 76 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+}

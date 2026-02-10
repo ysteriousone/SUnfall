@@ -1,0 +1,38 @@
+ideas = {
+	country = {
+		hungarian_red_army = {
+			picture = HUN_the_rakosi_battalion_idea 
+			modifier = {
+			army_defence_factor = 0.15
+			experience_gain_army = 0.5
+            org_loss_when_moving = -0.05
+			army_attack_factor = 0.08
+			}
+		}
+	}
+	red_victory = {
+			picture = HUN_state_protection_authority_idea
+			modifier = {
+            stability_factor = 0.15
+			war_support_factor = 0.10
+			political_power_gain = 0.10
+			}
+		}
+		food_shortages = {
+			picture = RAJ_state_of_famine_country
+			modifier = {
+			consumer_goods_factor = 0.25
+			stability_factor = -0.10
+			weekly_manpower = -300
+			}
+		}
+		undeveloped_industry = {
+			picture = POL_disjointed_industry
+			modifier = {
+			consumer_goods_factor = 0.25
+			production_speed_buildings_factor = 0.5
+			research_speed_factor = 0.3
+			}
+		}
+}
+

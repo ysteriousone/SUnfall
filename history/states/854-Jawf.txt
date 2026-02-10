@@ -1,0 +1,17 @@
+state={
+	id=854
+	name="STATE_854"
+
+	history = {
+		owner = RSH
+		add_core_of = RSH
+	}
+
+	provinces={
+		2057 4974 5027 7970 10815 10901 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

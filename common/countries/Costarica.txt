@@ -1,0 +1,4 @@
+graphical_culture = north_american_gfx
+graphical_culture_2d = north_american_2d
+
+color = { 72 105 158 }

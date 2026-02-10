@@ -1,0 +1,14 @@
+characters = {
+	UFT_nestor_makhno = {
+		name = "Nestor Makhno"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UFT/portrait_nestor_makhno.dds"
+			}
+		}
+		country_leader = {
+			ideology = anarchist_radsoc_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

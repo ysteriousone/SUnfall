@@ -1,0 +1,14 @@
+characters = {
+	AMU_grigory_semyonov = {
+		name = "Grigory Semyonov"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AMU/portrait_grigory_semyonov.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_auth_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

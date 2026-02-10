@@ -1,0 +1,33 @@
+state={
+	id=976
+	name="STATE_976"
+	resources={
+		steel=9.000
+		aluminium=1.000
+	}
+
+	history = {
+
+		owner = RGD
+		add_core_of = RGD
+		add_core_of = AUR
+
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+		victory_points = {
+			9648 5
+		}
+	}
+
+	provinces={
+		653 6687 9646 9648 9650 9679
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

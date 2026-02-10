@@ -1,0 +1,100 @@
+﻿l_english:
+ BR_selection_name_AZS:0 "Autonome Zone Schweiz"
+ BR_selection_name_BDN:0 "Baden"
+ BR_selection_name_BNS:0 "Bezirk Braunschweig"
+ BR_selection_name_BRN:0 "Freistaat Brandenburg"
+ BR_selection_name_BYR:0 "Freistaat Bayern"
+ BR_selection_name_HMB:0 "Freie Hansestadt Hamburg"
+ BR_selection_name_HNV:0 "Hanover-Oldenburg"
+ BR_selection_name_HSS:0 "Hessen-Nassau"
+ BR_selection_name_KRN:0 "Militärverwaltung Krain"
+ BR_selection_name_MCK:0 "Mecklenburg"
+ BR_selection_name_OST:0 "Freistaat Österreich"
+ BR_selection_name_POM:0 "Pommern"
+ BR_selection_name_RHN:0 "Rheinprovinz"
+ BR_selection_name_SAA:0 "Saarpfalz"
+ BR_selection_name_SAC:0 "Sachsen"
+ BR_selection_name_THU:0 "Thüringer Bund"
+ BR_selection_name_TIR:0 "Tirol"
+ BR_selection_name_WPL:0 "Westphalen"
+ BR_selection_name_WTT:0 "Württemberg-Hohenzollern"
+ BR_selection_name_NONE:0 "Select any State on the Map"
+
+
+ RGD_BR_FULL_bar_tt:0 "Out of [?BR_FULL_total|Y0] Representatives in the Bundesrat [?BR_FULL_support|G0] currently support us."
+
+ RGD_BR_AZS_tt:0 "Autonome Zone Schweiz\n§g---§!\n[?BR_AZS_support|G0] out of [?BR_AZS_total|Y0] Representatives support us."
+
+ RGD_BR_AZS_bar_tt:0 "[?BR_AZS_support|G0] out of [?BR_AZS_total|Y0] Representatives support us."
+
+ RGD_BR_BDN_tt:0 "Baden\n§g---§!\n[?BR_BDN_support|G0] out of [?BR_BDN_total|Y0] Representatives support us."
+
+ RGD_BR_BDN_bar_tt:0 "[?BR_BDN_support|G0] out of [?BR_BDN_total|Y0] Representatives support us."
+
+ RGD_BR_BNS_tt:0 "Bezirk Braunschweig\n§g---§!\n[?BR_BNS_support|G0] out of [?BR_BNS_total|Y0] Representatives support us."
+
+ RGD_BR_BNS_bar_tt:0 "[?BR_BNS_support|G0] out of [?BR_BNS_total|Y0] Representatives support us."
+
+ RGD_BR_BRN_tt:0 "Freistaat Brandenburg\n§g---§!\n[?BR_BRN_support|G0] out of [?BR_BRN_total|Y0] Representatives support us."
+
+ RGD_BR_BRN_bar_tt:0 "[?BR_BRN_support|G0] out of [?BR_BRN_total|Y0] Representatives support us."
+
+ RGD_BR_BYR_tt:0 "Freistaat Bayern\n§g---§!\n[?BR_BYR_support|G0] out of [?BR_BYR_total|Y0] Representatives support us."
+
+ RGD_BR_BYR_bar_tt:0 "[?BR_BYR_support|G0] out of [?BR_BYR_total|Y0] Representatives support us."
+
+ RGD_BR_HMB_tt:0 "Freie Hansestadt Hamburg\n§g---§!\n[?BR_HMB_support|G0] out of [?BR_HMB_total|Y0] Representatives support us."
+
+ RGD_BR_HMB_bar_tt:0 "[?BR_HMB_support|G0] out of [?BR_HMB_total|Y0] Representatives support us."
+
+ RGD_BR_HNV_tt:0 "Hanover-Oldenburg\n§g---§!\n[?BR_HNV_support|G0] out of [?BR_HNV_total|Y0] Representatives support us."
+
+ RGD_BR_HNV_bar_tt:0 "[?BR_HNV_support|G0] out of [?BR_HNV_total|Y0] Representatives support us."
+
+ RGD_BR_HSS_tt:0 "Hessen-Nassau\n§g---§!\n[?BR_HSS_support|G0] out of [?BR_HSS_total|Y0] Representatives support us."
+
+ RGD_BR_HSS_bar_tt:0 "[?BR_HSS_support|G0] out of [?BR_HSS_total|Y0] Representatives support us."
+
+ RGD_BR_KRN_tt:0 "Militärverwaltung Krain\n§g---§!\n[?BR_KRN_support|G0] out of [?BR_KRN_total|Y0] Representatives support us."
+
+ RGD_BR_KRN_bar_tt:0 "[?BR_KRN_support|G0] out of [?BR_KRN_total|Y0] Representatives support us."
+
+ RGD_BR_MCK_tt:0 "Mecklenburg\n§g---§!\n[?BR_MCK_support|G0] out of [?BR_MCK_total|Y0] Representatives support us."
+
+ RGD_BR_MCK_bar_tt:0 "[?BR_MCK_support|G0] out of [?BR_MCK_total|Y0] Representatives support us."
+
+ RGD_BR_OST_tt:0 "Freistaat Österreich\n§g---§!\n[?BR_OST_support|G0] out of [?BR_OST_total|Y0] Representatives support us."
+
+ RGD_BR_OST_bar_tt:0 "[?BR_OST_support|G0] out of [?BR_OST_total|Y0] Representatives support us."
+
+ RGD_BR_POM_tt:0 "Pommern\n§g---§!\n[?BR_POM_support|G0] out of [?BR_POM_total|Y0] Representatives support us."
+
+ RGD_BR_POM_bar_tt:0 "[?BR_POM_support|G0] out of [?BR_POM_total|Y0] Representatives support us."
+
+ RGD_BR_RHN_tt:0 "Rheinprovinz\n§g---§!\n[?BR_RHN_support|G0] out of [?BR_RHN_total|Y0] Representatives support us."
+
+ RGD_BR_RHN_bar_tt:0 "[?BR_RHN_support|G0] out of [?BR_RHN_total|Y0] Representatives support us."
+
+ RGD_BR_SAA_tt:0 "Saarpfalz\n§g---§!\n[?BR_SAA_support|G0] out of [?BR_SAA_total|Y0] Representatives support us."
+
+ RGD_BR_SAA_bar_tt:0 "[?BR_SAA_support|G0] out of [?BR_SAA_total|Y0] Representatives support us."
+
+ RGD_BR_SAC_tt:0 "Sachsen\n§g---§!\n[?BR_SAC_support|G0] out of [?BR_SAC_total|Y0] Representatives support us."
+
+ RGD_BR_SAC_bar_tt:0 "[?BR_SAC_support|G0] out of [?BR_SAC_total|Y0] Representatives support us."
+
+ RGD_BR_THU_tt:0 "Thüringer Bund\n§g---§!\n[?BR_THU_support|G0] out of [?BR_THU_total|Y0] Representatives support us."
+
+ RGD_BR_THU_bar_tt:0 "[?BR_THU_support|G0] out of [?BR_THU_total|Y0] Representatives support us."
+
+ RGD_BR_TIR_tt:0 "Tirol\n§g---§!\n[?BR_TIR_support|G0] out of [?BR_TIR_total|Y0] Representatives support us."
+
+ RGD_BR_TIR_bar_tt:0 "[?BR_TIR_support|G0] out of [?BR_TIR_total|Y0] Representatives support us."
+
+ RGD_BR_WPL_tt:0 "Westphalen\n§g---§!\n[?BR_WPL_support|G0] out of [?BR_WPL_total|Y0] Representatives support us."
+
+ RGD_BR_WPL_bar_tt:0 "[?BR_WPL_support|G0] out of [?BR_WPL_total|Y0] Representatives support us."
+
+ RGD_BR_WTT_tt:0 "Württemberg-Hohenzollern\n§g---§!\n[?BR_WTT_support|G0] out of [?BR_WTT_total|Y0] Representatives support us."
+
+ RGD_BR_WTT_bar_tt:0 "[?BR_WTT_support|G0] out of [?BR_WTT_total|Y0] Representatives support us."

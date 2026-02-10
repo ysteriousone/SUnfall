@@ -1,0 +1,34 @@
+state={
+	id=1060
+	name="STATE_1060"
+
+	history = {
+
+		owner = RGD
+		add_core_of = RGD
+		add_core_of = PMM
+
+		victory_points = {
+			6282 5 # Stettin
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			6282 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		537 6236 6282 6309 6334 6390 9334 9387 
+	}
+	manpower=621888
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,80 @@
+ideas = {
+	country = {
+		COU_baltic_german_refugees = {
+			picture = COU_baltic_germans
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = 300
+				stability_factor = -0.1
+			}
+		}
+		
+		COU_forest_brothers_resistance = {
+			picture = COU_forest_brothers
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.2
+				political_power_factor = -0.15
+				conscription_factor = -0.3
+				war_support_factor = -0.15
+			}
+		}
+
+		COU_landswehr_radicalism = {
+			picture = COU_landswehr
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.005
+				war_support_factor = 0.1
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				populist_drift = 0.1
+			}
+		}
+
+		COU_rittertum = {
+			picture = COU_knights
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.05
+				mysticist_drift = 0.05
+			}
+		}
+	}
+}

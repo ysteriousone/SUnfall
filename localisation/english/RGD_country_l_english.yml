@@ -1,0 +1,32 @@
+﻿l_english:
+ RGD:0 "Republik Grossdeutschland"
+ RGD_DEF:0 "the Greater German Republic"
+ RDG_ADJ:0 "German"
+
+### Party Names ###
+
+RGD_radical_socialist_party:0 "FAUD"
+RGD_radical_socialist_party_long:0 "Freie Arbeiter Union Deutschlands"
+
+RGD_liberal_socialist_party:0 "KPD"
+RGD_liberal_socialist_party_long:0 "Kommunistische Partei Deutschlands"
+
+RGD_liberal_dem_party:0 "SPD"
+RGD_liberal_dem_party_long:0 "Sozialdemokratische Partei Deutschlands"
+
+RGD_conservative_dem_party:0 "Zentrum"
+RGD_conservative_dem_party_long:0 "Zentrumspartei"
+
+RGD_authoritarianist_party:0 "DNVP"
+RGD_authoritarianist_party_long:0 "Deutschnationale Volkspartei"
+
+RGD_populist_party:0 "NSDAP"
+RGD_populist_party_long:0 "Nationalsyndikalistische Deutsche Arbeiterprtei"
+
+RGD_mysticist_party:0 "Thuleorden"
+RGD_mysticist_party_long:0 "Thule-Gesellschaft"
+
+
+### Focus Tree ###
+
+RGD_krain_need_resolved_tt:0 "§RThe Krain issue needs to be resolved to do this. §!"

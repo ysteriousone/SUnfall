@@ -1,0 +1,36 @@
+state={
+	id=978
+	name="STATE_978"
+	resources={
+		aluminium=6.000
+	}
+
+	history = {
+
+		owner = RGD
+		add_core_of = RGD
+		#add_core_of = BDB
+
+		victory_points = {
+			11640 1 #Müllheim
+		}
+
+		victory_points = {
+			6712 1 #Freiburg
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			air_base = 1
+		}
+	}
+
+	provinces={
+		3679 3692 6542 6712 11640
+	}
+	manpower=1256854
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+capital = 817
+
+#oob = "MNG_1936"
+
+set_politics = {
+  ruling_party = authoritarianist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_popularities = {
+    populist = 10
+    conservative_dem = 7
+    liberal_dem = 3
+    authoritarianist = 45
+    liberal_socialist = 13
+    radical_socialist = 22
+    mysticist = 0
+}
+
+#recruit_character = 
+
+add_ideas = {
+
+}

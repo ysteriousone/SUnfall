@@ -1,0 +1,26 @@
+capital = 206
+
+#oob = "TIB_1936"
+
+set_politics = {
+  ruling_party = liberal_socialist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_popularities = {
+    populist = 7
+    conservative_dem = 3
+    liberal_dem = 10
+    authoritarianist = 11
+    liberal_socialist = 45
+    radical_socialist = 14
+    mysticist = 10
+}
+
+#recruit_character = 
+
+#add_ideas = {
+#	closed_economy
+#}

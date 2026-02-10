@@ -1,0 +1,31 @@
+
+state={
+	id=1029
+	name="STATE_1029"
+	manpower = 1000000
+	
+	state_category = town
+	
+	resources={
+		chromium=2
+		tungsten=3
+	}
+
+
+	history={
+		add_core_of = SVE
+		owner = SVE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+
+	}
+
+	provinces={
+		10075 12075 12319
+	}
+
+	local_supplies=0.0 
+}

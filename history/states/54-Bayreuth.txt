@@ -1,0 +1,29 @@
+state={
+	id=54
+	name="STATE_54"
+
+	history = {
+
+		owner = RGD
+		add_core_of = RGD
+		add_core_of = BVI
+
+		victory_points = {
+			11544 10 # Nuremberg
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		561 571 586 3474 9416 11404 11529 11544
+	}
+	manpower=1508159
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,24 @@
+state={
+	id=482
+	name="STATE_482"
+
+	history={
+		owner = PCH
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PCH
+
+		victory_points = {
+			10830 10
+		}
+	}
+
+	provinces={
+		2037 4898 4977 7935 8033 10830 10916 12745 12850 12897
+	}
+	manpower=330751
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

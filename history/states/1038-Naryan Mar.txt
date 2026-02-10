@@ -1,0 +1,27 @@
+state={
+	id=1038
+	name="STATE_1038"
+
+	history = {
+		victory_points = {
+			105 1
+		}
+		owner = AKH
+		add_core_of = AKH
+		buildings = {
+			infrastructure = 1
+			12530 = {
+				naval_base = 1
+			}
+
+		}
+	}
+
+	provinces={
+		105 3147 6192 10207 12530 
+	}
+	manpower=12800
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

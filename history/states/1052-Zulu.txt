@@ -1,0 +1,24 @@
+state={
+	id=1052
+	name="STATE_1052"
+
+	history={
+		owner = ZUL
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+		}
+		victory_points = {
+			8178 2 # Ulundi
+		}
+		add_core_of = ZUL
+	}
+
+	provinces={
+		1494 7900 8178 
+	}
+	manpower=788345
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

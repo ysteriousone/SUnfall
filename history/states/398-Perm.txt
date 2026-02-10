@@ -1,0 +1,27 @@
+state={
+	id=398
+	name="STATE_398"
+	resources={
+		aluminium=6.000
+	}
+
+	history = {
+		owner = SIB
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 1
+
+		}
+		victory_points = {
+			7375 1
+		}
+	}
+
+	provinces={
+		206 1380 1754 4372 4802 7375 7403 10286 10314 11228 12187 12216 12527 12626 
+	}
+	manpower=91008
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

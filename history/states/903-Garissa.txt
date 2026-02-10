@@ -1,0 +1,22 @@
+state={
+	id=903
+	name="STATE_903"
+
+	history={
+		owner = RKE
+		buildings = {
+			infrastructure = 1
+
+		}
+
+		add_core_of = RKE
+	}
+
+	provinces={
+		2066 8133 11014 12927 
+	}
+	manpower=610560
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

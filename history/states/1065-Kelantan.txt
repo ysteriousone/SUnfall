@@ -1,0 +1,31 @@
+state={
+	id=1065
+	name="STATE_1065"
+
+	history = {
+
+		owner = KEL
+		add_core_of = KEL
+
+		victory_points = {
+			7329 1
+		}
+
+		buildings = {
+			infrastructure = 1
+
+			7329 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		 7329  10227
+	}
+	manpower=420333
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

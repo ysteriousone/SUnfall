@@ -1,0 +1,33 @@
+state={
+	id=1075
+	name="STATE_1075"
+
+	history = {
+
+		owner = RGD
+		add_core_of = RGD
+		add_core_of = BVI
+
+		victory_points = {
+			6421 2 # Coburg
+		}
+
+		victory_points = {
+			9557 2 # Würtzburg
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		6421 6594 9557 9572 11417 13116 
+	}
+	manpower=1233400
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

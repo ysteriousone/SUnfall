@@ -1,0 +1,305 @@
+on_actions = {
+	on_daily_RGD = {
+		effect = {
+			set_variable = { BR_FULL_total = 0 }
+
+			add_to_variable = { BR_FULL_total = BR_AZS_total }
+			add_to_variable = { BR_FULL_total = BR_BDN_total }
+			add_to_variable = { BR_FULL_total = BR_BNS_total }
+			add_to_variable = { BR_FULL_total = BR_BRN_total }
+			add_to_variable = { BR_FULL_total = BR_BYR_total }
+			add_to_variable = { BR_FULL_total = BR_HMB_total }
+			add_to_variable = { BR_FULL_total = BR_HNV_total }
+			add_to_variable = { BR_FULL_total = BR_HSS_total }
+			add_to_variable = { BR_FULL_total = BR_KRN_total }
+			add_to_variable = { BR_FULL_total = BR_MCK_total }
+			add_to_variable = { BR_FULL_total = BR_OST_total }
+			add_to_variable = { BR_FULL_total = BR_POM_total }
+			add_to_variable = { BR_FULL_total = BR_RHN_total }
+			add_to_variable = { BR_FULL_total = BR_SAA_total }
+			add_to_variable = { BR_FULL_total = BR_SAC_total }
+			add_to_variable = { BR_FULL_total = BR_THU_total }
+			add_to_variable = { BR_FULL_total = BR_TIR_total }
+			add_to_variable = { BR_FULL_total = BR_WPL_total }
+			add_to_variable = { BR_FULL_total = BR_WTT_total }
+
+
+			set_variable = { BR_FULL_support = 0 }
+
+			add_to_variable = { BR_FULL_support = BR_AZS_support }
+			add_to_variable = { BR_FULL_support = BR_BDN_support }
+			add_to_variable = { BR_FULL_support = BR_BNS_support }
+			add_to_variable = { BR_FULL_support = BR_BRN_support }
+			add_to_variable = { BR_FULL_support = BR_BYR_support }
+			add_to_variable = { BR_FULL_support = BR_HMB_support }
+			add_to_variable = { BR_FULL_support = BR_HNV_support }
+			add_to_variable = { BR_FULL_support = BR_HSS_support }
+			add_to_variable = { BR_FULL_support = BR_KRN_support }
+			add_to_variable = { BR_FULL_support = BR_MCK_support }
+			add_to_variable = { BR_FULL_support = BR_OST_support }
+			add_to_variable = { BR_FULL_support = BR_POM_support }
+			add_to_variable = { BR_FULL_support = BR_RHN_support }
+			add_to_variable = { BR_FULL_support = BR_SAA_support }
+			add_to_variable = { BR_FULL_support = BR_SAC_support }
+			add_to_variable = { BR_FULL_support = BR_THU_support }
+			add_to_variable = { BR_FULL_support = BR_TIR_support }
+			add_to_variable = { BR_FULL_support = BR_WPL_support }
+			add_to_variable = { BR_FULL_support = BR_WTT_support }
+
+
+			set_variable = { BR_FULL_frame = BR_FULL_support }
+			divide_variable = { BR_FULL_frame = BR_FULL_total }
+			multiply_variable = { BR_FULL_frame = 100 }
+			round_variable = BR_FULL_frame
+
+
+			set_variable = { BR_AZS_frame = BR_AZS_support }
+			divide_variable = { BR_AZS_frame = BR_AZS_total }
+			multiply_variable = { BR_AZS_frame = 100 }
+			round_variable = BR_AZS_frame
+
+			set_variable = { BR_BDN_frame = BR_BDN_support }
+			divide_variable = { BR_BDN_frame = BR_BDN_total }
+			multiply_variable = { BR_BDN_frame = 100 }
+			round_variable = BR_BDN_frame
+
+			set_variable = { BR_BNS_frame = BR_BNS_support }
+			divide_variable = { BR_BNS_frame = BR_BNS_total }
+			multiply_variable = { BR_BNS_frame = 100 }
+			round_variable = BR_BNS_frame
+
+			set_variable = { BR_BRN_frame = BR_BRN_support }
+			divide_variable = { BR_BRN_frame = BR_BRN_total }
+			multiply_variable = { BR_BRN_frame = 100 }
+			round_variable = BR_BRN_frame
+
+			set_variable = { BR_BYR_frame = BR_BYR_support }
+			divide_variable = { BR_BYR_frame = BR_BYR_total }
+			multiply_variable = { BR_BYR_frame = 100 }
+			round_variable = BR_BYR_frame
+
+			set_variable = { BR_HMB_frame = BR_HMB_support }
+			divide_variable = { BR_HMB_frame = BR_HMB_total }
+			multiply_variable = { BR_HMB_frame = 100 }
+			round_variable = BR_HMB_frame
+
+			set_variable = { BR_HNV_frame = BR_HNV_support }
+			divide_variable = { BR_HNV_frame = BR_HNV_total }
+			multiply_variable = { BR_HNV_frame = 100 }
+			round_variable = BR_HNV_frame
+
+			set_variable = { BR_HSS_frame = BR_HSS_support }
+			divide_variable = { BR_HSS_frame = BR_HSS_total }
+			multiply_variable = { BR_HSS_frame = 100 }
+			round_variable = BR_HSS_frame
+
+			set_variable = { BR_KRN_frame = BR_KRN_support }
+			divide_variable = { BR_KRN_frame = BR_KRN_total }
+			multiply_variable = { BR_KRN_frame = 100 }
+			round_variable = BR_KRN_frame
+
+			set_variable = { BR_MCK_frame = BR_MCK_support }
+			divide_variable = { BR_MCK_frame = BR_MCK_total }
+			multiply_variable = { BR_MCK_frame = 100 }
+			round_variable = BR_MCK_frame
+
+			set_variable = { BR_OST_frame = BR_OST_support }
+			divide_variable = { BR_OST_frame = BR_OST_total }
+			multiply_variable = { BR_OST_frame = 100 }
+			round_variable = BR_OST_frame
+
+			set_variable = { BR_POM_frame = BR_POM_support }
+			divide_variable = { BR_POM_frame = BR_POM_total }
+			multiply_variable = { BR_POM_frame = 100 }
+			round_variable = BR_POM_frame
+
+			set_variable = { BR_RHN_frame = BR_RHN_support }
+			divide_variable = { BR_RHN_frame = BR_RHN_total }
+			multiply_variable = { BR_RHN_frame = 100 }
+			round_variable = BR_RHN_frame
+
+			set_variable = { BR_SAA_frame = BR_SAA_support }
+			divide_variable = { BR_SAA_frame = BR_SAA_total }
+			multiply_variable = { BR_SAA_frame = 100 }
+			round_variable = BR_SAA_frame
+
+			set_variable = { BR_SAC_frame = BR_SAC_support }
+			divide_variable = { BR_SAC_frame = BR_SAC_total }
+			multiply_variable = { BR_SAC_frame = 100 }
+			round_variable = BR_SAC_frame
+
+			set_variable = { BR_THU_frame = BR_THU_support }
+			divide_variable = { BR_THU_frame = BR_THU_total }
+			multiply_variable = { BR_THU_frame = 100 }
+			round_variable = BR_THU_frame
+
+			set_variable = { BR_TIR_frame = BR_TIR_support }
+			divide_variable = { BR_TIR_frame = BR_TIR_total }
+			multiply_variable = { BR_TIR_frame = 100 }
+			round_variable = BR_TIR_frame
+
+			set_variable = { BR_WPL_frame = BR_WPL_support }
+			divide_variable = { BR_WPL_frame = BR_WPL_total }
+			multiply_variable = { BR_WPL_frame = 100 }
+			round_variable = BR_WPL_frame
+
+			set_variable = { BR_WTT_frame = BR_WTT_support }
+			divide_variable = { BR_WTT_frame = BR_WTT_total }
+			multiply_variable = { BR_WTT_frame = 100 }
+			round_variable = BR_WTT_frame
+		}
+	}
+
+	on_startup = {
+		effect = {
+		RGD = {
+			set_variable = { BR_FULL_total = 0 }
+
+			add_to_variable = { BR_FULL_total = BR_AZS_total }
+			add_to_variable = { BR_FULL_total = BR_BDN_total }
+			add_to_variable = { BR_FULL_total = BR_BNS_total }
+			add_to_variable = { BR_FULL_total = BR_BRN_total }
+			add_to_variable = { BR_FULL_total = BR_BYR_total }
+			add_to_variable = { BR_FULL_total = BR_HMB_total }
+			add_to_variable = { BR_FULL_total = BR_HNV_total }
+			add_to_variable = { BR_FULL_total = BR_HSS_total }
+			add_to_variable = { BR_FULL_total = BR_KRN_total }
+			add_to_variable = { BR_FULL_total = BR_MCK_total }
+			add_to_variable = { BR_FULL_total = BR_OST_total }
+			add_to_variable = { BR_FULL_total = BR_POM_total }
+			add_to_variable = { BR_FULL_total = BR_RHN_total }
+			add_to_variable = { BR_FULL_total = BR_SAA_total }
+			add_to_variable = { BR_FULL_total = BR_SAC_total }
+			add_to_variable = { BR_FULL_total = BR_THU_total }
+			add_to_variable = { BR_FULL_total = BR_TIR_total }
+			add_to_variable = { BR_FULL_total = BR_WPL_total }
+			add_to_variable = { BR_FULL_total = BR_WTT_total }
+
+
+			set_variable = { BR_FULL_support = 0 }
+
+			add_to_variable = { BR_FULL_support = BR_AZS_support }
+			add_to_variable = { BR_FULL_support = BR_BDN_support }
+			add_to_variable = { BR_FULL_support = BR_BNS_support }
+			add_to_variable = { BR_FULL_support = BR_BRN_support }
+			add_to_variable = { BR_FULL_support = BR_BYR_support }
+			add_to_variable = { BR_FULL_support = BR_HMB_support }
+			add_to_variable = { BR_FULL_support = BR_HNV_support }
+			add_to_variable = { BR_FULL_support = BR_HSS_support }
+			add_to_variable = { BR_FULL_support = BR_KRN_support }
+			add_to_variable = { BR_FULL_support = BR_MCK_support }
+			add_to_variable = { BR_FULL_support = BR_OST_support }
+			add_to_variable = { BR_FULL_support = BR_POM_support }
+			add_to_variable = { BR_FULL_support = BR_RHN_support }
+			add_to_variable = { BR_FULL_support = BR_SAA_support }
+			add_to_variable = { BR_FULL_support = BR_SAC_support }
+			add_to_variable = { BR_FULL_support = BR_THU_support }
+			add_to_variable = { BR_FULL_support = BR_TIR_support }
+			add_to_variable = { BR_FULL_support = BR_WPL_support }
+			add_to_variable = { BR_FULL_support = BR_WTT_support }
+
+
+			set_variable = { BR_FULL_frame = BR_FULL_support }
+			divide_variable = { BR_FULL_frame = BR_FULL_total }
+			multiply_variable = { BR_FULL_frame = 100 }
+			round_variable = BR_FULL_frame
+
+
+			set_variable = { BR_AZS_frame = BR_AZS_support }
+			divide_variable = { BR_AZS_frame = BR_AZS_total }
+			multiply_variable = { BR_AZS_frame = 100 }
+			round_variable = BR_AZS_frame
+
+			set_variable = { BR_BDN_frame = BR_BDN_support }
+			divide_variable = { BR_BDN_frame = BR_BDN_total }
+			multiply_variable = { BR_BDN_frame = 100 }
+			round_variable = BR_BDN_frame
+
+			set_variable = { BR_BNS_frame = BR_BNS_support }
+			divide_variable = { BR_BNS_frame = BR_BNS_total }
+			multiply_variable = { BR_BNS_frame = 100 }
+			round_variable = BR_BNS_frame
+
+			set_variable = { BR_BRN_frame = BR_BRN_support }
+			divide_variable = { BR_BRN_frame = BR_BRN_total }
+			multiply_variable = { BR_BRN_frame = 100 }
+			round_variable = BR_BRN_frame
+
+			set_variable = { BR_BYR_frame = BR_BYR_support }
+			divide_variable = { BR_BYR_frame = BR_BYR_total }
+			multiply_variable = { BR_BYR_frame = 100 }
+			round_variable = BR_BYR_frame
+
+			set_variable = { BR_HMB_frame = BR_HMB_support }
+			divide_variable = { BR_HMB_frame = BR_HMB_total }
+			multiply_variable = { BR_HMB_frame = 100 }
+			round_variable = BR_HMB_frame
+
+			set_variable = { BR_HNV_frame = BR_HNV_support }
+			divide_variable = { BR_HNV_frame = BR_HNV_total }
+			multiply_variable = { BR_HNV_frame = 100 }
+			round_variable = BR_HNV_frame
+
+			set_variable = { BR_HSS_frame = BR_HSS_support }
+			divide_variable = { BR_HSS_frame = BR_HSS_total }
+			multiply_variable = { BR_HSS_frame = 100 }
+			round_variable = BR_HSS_frame
+
+			set_variable = { BR_KRN_frame = BR_KRN_support }
+			divide_variable = { BR_KRN_frame = BR_KRN_total }
+			multiply_variable = { BR_KRN_frame = 100 }
+			round_variable = BR_KRN_frame
+
+			set_variable = { BR_MCK_frame = BR_MCK_support }
+			divide_variable = { BR_MCK_frame = BR_MCK_total }
+			multiply_variable = { BR_MCK_frame = 100 }
+			round_variable = BR_MCK_frame
+
+			set_variable = { BR_OST_frame = BR_OST_support }
+			divide_variable = { BR_OST_frame = BR_OST_total }
+			multiply_variable = { BR_OST_frame = 100 }
+			round_variable = BR_OST_frame
+
+			set_variable = { BR_POM_frame = BR_POM_support }
+			divide_variable = { BR_POM_frame = BR_POM_total }
+			multiply_variable = { BR_POM_frame = 100 }
+			round_variable = BR_POM_frame
+
+			set_variable = { BR_RHN_frame = BR_RHN_support }
+			divide_variable = { BR_RHN_frame = BR_RHN_total }
+			multiply_variable = { BR_RHN_frame = 100 }
+			round_variable = BR_RHN_frame
+
+			set_variable = { BR_SAA_frame = BR_SAA_support }
+			divide_variable = { BR_SAA_frame = BR_SAA_total }
+			multiply_variable = { BR_SAA_frame = 100 }
+			round_variable = BR_SAA_frame
+
+			set_variable = { BR_SAC_frame = BR_SAC_support }
+			divide_variable = { BR_SAC_frame = BR_SAC_total }
+			multiply_variable = { BR_SAC_frame = 100 }
+			round_variable = BR_SAC_frame
+
+			set_variable = { BR_THU_frame = BR_THU_support }
+			divide_variable = { BR_THU_frame = BR_THU_total }
+			multiply_variable = { BR_THU_frame = 100 }
+			round_variable = BR_THU_frame
+
+			set_variable = { BR_TIR_frame = BR_TIR_support }
+			divide_variable = { BR_TIR_frame = BR_TIR_total }
+			multiply_variable = { BR_TIR_frame = 100 }
+			round_variable = BR_TIR_frame
+
+			set_variable = { BR_WPL_frame = BR_WPL_support }
+			divide_variable = { BR_WPL_frame = BR_WPL_total }
+			multiply_variable = { BR_WPL_frame = 100 }
+			round_variable = BR_WPL_frame
+
+			set_variable = { BR_WTT_frame = BR_WTT_support }
+			divide_variable = { BR_WTT_frame = BR_WTT_total }
+			multiply_variable = { BR_WTT_frame = 100 }
+			round_variable = BR_WTT_frame
+		}
+		}
+	}
+}

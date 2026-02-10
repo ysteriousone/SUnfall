@@ -1,0 +1,106 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_slot_military_spirit"
+		texturefile = "gfx/interface/idea_slot_military_spirit.png"
+	}
+
+### Army
+
+	spriteType = {
+		name = "GFX_idea_spirit_infantry"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_infantry.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_spirit_speed"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_speed.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_spirit_tank"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_tank.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_spirit_defending"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_defending.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_spirit_specops"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_specops.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_spirit_supply"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_supply.png"
+	}
+
+
+### Navy
+
+	spriteType = {
+		name = "GFX_idea_spirit_carrier"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_carrier.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_spirit_sub"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_sub.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_spirit_destroyer"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_destroyer.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_spirit_capital"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_capital.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_spirit_convoy"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_convoy.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_spirit_range"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_range.png"
+	}
+
+
+
+### Air
+
+	spriteType = {
+		name = "GFX_idea_spirit_fighter"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_fighter.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_spirit_cas"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_cas.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_spirit_bomber"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_bomber.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_spirit_fortress"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_fortress.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_spirit_navair"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_navair.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_spirit_antiair"
+		texturefile = "gfx/interface/ideas/military_spirit/idea_spirit_antiair.png"
+	}
+}

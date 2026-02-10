@@ -1,0 +1,35 @@
+state={
+	id=1054
+	name="STATE_1054"
+
+	history = {
+
+		owner = RGD
+		add_core_of = RGD
+
+		victory_points = {
+			241 5 # Wilhelmshaven
+		}
+
+		victory_points = {
+			309 3 # Oldenburg
+		}
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			241 = {
+				naval_base = 8
+			}
+		}
+
+	}
+
+	provinces={
+		241 309 3234 
+	}
+	manpower=633767
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

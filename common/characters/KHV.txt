@@ -1,0 +1,14 @@
+characters = {
+	KHV_abdullahkhan = {
+		name = "Sayid Abdullah Khan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KHV/portrait_sayid_khan.dds"
+			}
+		}
+		country_leader = {
+			ideology = populist_generic_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

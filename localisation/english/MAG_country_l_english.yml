@@ -1,0 +1,27 @@
+﻿l_english:
+ MAG:0 "Magadan Expedition"
+ MAG_DEF:0 "the Magadan Expedition Frontier Port"
+ MAG_ADJ:0 "Magadan"
+
+### Party Names ###
+
+MAG_radical_socialist_party:0 "Black Army"
+MAG_radical_socialist_party_long:0 "Siberian Black Army"
+
+MAG_liberal_socialist_party:0 "Bolsheviks"
+MAG_liberal_socialist_party_long:0 "Bolshevik Party of Russia"
+
+MAG_liberal_dem_party:0 "Menshiviks"
+MAG_liberal_dem_party_long:0 "Menshivik Party of Russia"
+
+MAG_conservative_dem_party:0 "Magadan City Council"
+MAG_conservative_dem_party_long:0 "Magadan City Council"
+
+MAG_authoritarianist_party:0 "Magadan Evacution Authority"
+MAG_authoritarianist_party_long:0 "Pacific Naval Command for the Evacution of Magadan"
+
+MAG_populist_party:0 "Japanese Sympathisers"
+MAG_populist_party_long:0 "Japanese Sympathisers and Supporters"
+
+MAG_mysticist_party:0 "Shamans"
+MAG_mysticist_party_long:0 "Shamans of the Siberian Tribes"

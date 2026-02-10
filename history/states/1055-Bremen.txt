@@ -1,0 +1,38 @@
+state={
+	id=1055
+	name="STATE_1055"
+
+	history = {
+
+		owner = RGD
+		add_core_of = RGD
+
+		victory_points = {
+			3326 5 # Bremen
+		}
+
+		victory_points = {
+			374 2 # Cuxhaven
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 2
+			6325 = { # Buxtehude
+				naval_base = 1
+			}
+			374 = { # Cuxhaven
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		374 3271 3326 6263 6325 6349 
+	}
+	manpower=875323
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

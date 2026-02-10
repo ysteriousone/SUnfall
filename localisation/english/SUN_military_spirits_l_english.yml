@@ -1,0 +1,32 @@
+﻿l_english:
+
+military_spirit:0 "Military Spirit"
+
+### Army ###
+
+GENERIC_inantry_spirit:0 "Strength in Numbers"
+GENERIC_speed_spirit:0 "Mobile Warfare Tactics"
+GENERIC_tank_spirit:0 "Mechanized Warfare"
+GENERIC_defending_spirit:0 "Holding our Ground"
+GENERIC_specops_spirit:0 "Elite Specialists"
+GENERIC_supply_spirit:0 "All-Terrain Training"
+
+
+### Navy ###
+
+GENERIC_carrier_spirit:0 "Mobile Airbases"
+GENERIC_sub_spirit:0 "Sea Wolves"
+GENERIC_destroyer_spirit:0 "Grand Armada"
+GENERIC_capital_spirit:0 "Mechanical Leviathans"
+GENERIC_convoy_spirit:0 "Transport Shipping"
+GENERIC_range_spirit:0 "High Seas Warfare"
+
+
+### Airforce ###
+
+GENERIC_fighter_spirit:0 "Airborn Hunters"
+GENERIC_cas_spirit:0 "Death from Above"
+GENERIC_bomber_spirit:0 "Terror Bombing"
+GENERIC_fortress_spirit:0 "Flying Fortresses"
+GENERIC_navair_spirit:0 "Naval Airforce"
+GENERIC_antiair_spirit:0 "Anti-Air Defences"

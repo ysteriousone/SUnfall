@@ -1,0 +1,27 @@
+
+state={
+	id = 657
+	name = "STATE_657" # Birobidzhan
+	manpower = 308380
+	resources = {
+		steel=18 # was: 24
+	}
+
+
+	state_category = pastoral
+
+	history = {
+		owner = AMU
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+		}
+		add_core_of = AMU
+	}
+
+	provinces = {
+		675 1802 4246 4701 4725 4779 4829 7616 7763 7801 10655 12261 12654 12678 
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,14 @@
+characters = {
+	COU_ernst_gustav = {
+		name = "Ernst Gustav von Biron"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COU/portrait_ernst_gustav.dds"
+			}
+		}
+		country_leader = {
+			ideology = aristo_monrch_auth_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,910 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_INTERNAL_AFFAIRS}
+### search_filters = {FOCUS_FILTER_ARMY_XP}
+### search_filters = {FOCUS_FILTER_NAVY_XP}
+### search_filters = {FOCUS_FILTER_AIR_XP}
+### search_filters = {FOCUS_FILTER_BALANCE_OF_POWER}
+### search_filters = {FOCUS_FILTER_POLITICAL_CHARACTER}
+### search_filters = {FOCUS_FILTER_MILITARY_CHARACTER}
+### search_filters = {FOCUS_FILTER_INTERNATIONAL_TRADE}
+### search_filters = {FOCUS_FILTER_HISTORICAL}
+
+focus_tree = {
+	id = german_intro_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = RGD
+		}
+	}
+
+	#Focus Path shortcuts
+#	shortcut = {
+#		name = GER_oppose_hitler_shortcut
+#		target = GER_oppose_hitler_ww
+#		scroll_wheel_factor = 0.485
+#		trigger = {
+#			has_dlc = "Gotterdammerung"
+#		}
+#	}
+
+#	shortcut = {
+#		name = GER_oppose_hitler_shortcut
+#		target = GER_oppose_hitler
+#		scroll_wheel_factor = 0.55
+#		trigger = {
+#			NOT = { has_dlc = "Gotterdammerung" }
+#		}
+#	}
+
+#	shortcut = {
+#		name = GER_historical_path_shortcut
+#		target = GER_remilitarize_the_rhineland
+#		scroll_wheel_factor = 0.469 #Optional parameter, if left unset will use existing zoomlevel. Warning: there's no good way for this to respect client resolution.
+#		trigger = {
+#			always = yes
+#			# If FALSE, this will not display. If true, it will not supercede allow conditions of target focus.
+#		}
+#	}
+
+#	shortcut = {
+#		name = GER_economic_path_shortcut
+#		target = RGD_industrial_investment_program
+#		scroll_wheel_factor = 0.75
+#	}
+
+	continuous_focus_position = { x = 50 y = 2000 }
+
+	default = no
+
+
+#	focus = {
+#		id = RGD_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id =
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+
+
+#####################################################################################
+######### INDUSTRY ######### INDUSTRY ######### INDUSTRY ######### INDUSTRY #########
+#####################################################################################
+
+
+	focus = {
+		id = RGD_industrial_investment_program
+		icon = GFX_
+#		prerequisite = { focus =  }
+#		mutually_exclusive = { focus =   }
+		x = 10
+		y = 0
+#		relative_position_id =
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			check_variable = {
+				var = BR_FULL_support
+				value = 90
+				compare = greater_than_or_equals
+				tooltip = RGD_BR_support_needed_FULL
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = RGD_build_rur_dam
+		icon = GFX_
+		prerequisite = { focus = RGD_industrial_investment_program }
+#		mutually_exclusive = { focus =   }
+		x = -2
+		y = 1
+		relative_position_id = RGD_industrial_investment_program
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			check_variable = {
+				var = BR_RHN_support
+				value = 8
+				compare = greater_than_or_equals
+				tooltip = RGD_BR_support_needed_RHN
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			51 = {
+				add_building_construction = {
+					type = dam
+					level = 1
+					instant_build = yes
+					province = {
+						id = 3547
+					}
+				}
+			}
+			custom_effect_tooltip = {
+				localization_key = building_state_modifier|dam
+				INDENT = "    "
+			}
+		}
+	}
+
+### AUTOBAHN
+
+	focus = {
+		id = RGD_autobahn_project
+		icon = GFX_
+		prerequisite = { focus = RGD_industrial_investment_program }
+#		mutually_exclusive = { focus =   }
+		x = -7
+		y = 1
+		relative_position_id = RGD_industrial_investment_program
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = RGD_autobahn_east
+		icon = GFX_
+		prerequisite = { focus = RGD_autobahn_project }
+#		mutually_exclusive = { focus =   }
+		x = -3
+		y = 1
+		relative_position_id = RGD_autobahn_project
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			63 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			1060 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			62 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			68 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			1059 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			64 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			61 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			65 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = RGD_autobahn_north
+		icon = GFX_
+		prerequisite = { focus = RGD_autobahn_project }
+#		mutually_exclusive = { focus =   }
+		x = 1
+		y = 1
+		relative_position_id = RGD_autobahn_project
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = RGD_autobahn_south
+		icon = GFX_
+		prerequisite = { focus = RGD_autobahn_project }
+#		mutually_exclusive = { focus =   }
+		x = -1
+		y = 1
+		relative_position_id = RGD_autobahn_project
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			54 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			53 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			52 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			50 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			978 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = RGD_autobahn_austria
+		icon = GFX_
+		prerequisite = { focus = RGD_autobahn_south }
+#		mutually_exclusive = { focus =   }
+		x = 0
+		y = 1
+		relative_position_id = RGD_autobahn_south
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = RGD_autobahn_west
+		icon = GFX_
+		prerequisite = { focus = RGD_autobahn_project }
+#		mutually_exclusive = { focus =   }
+		x = 3
+		y = 1
+		relative_position_id = RGD_autobahn_project
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+### TRADE AND TRANSPORT
+
+	focus = {
+		id = RGD_hamburg_port
+		icon = GFX_
+		prerequisite = { focus = RGD_industrial_investment_program }
+#		mutually_exclusive = { focus =   }
+		x = 3
+		y = 1
+		relative_position_id = RGD_industrial_investment_program
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			check_variable = {
+				var = BR_HMB_support
+				value = 2
+				compare = greater_than_or_equals
+				tooltip = RGD_BR_support_needed_HMB
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = RGD_trieste_port
+		icon = GFX_
+		prerequisite = { focus = RGD_industrial_investment_program }
+#		mutually_exclusive = { focus =   }
+		x = 5
+		y = 1
+		relative_position_id = RGD_industrial_investment_program
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = RGD_krain_need_resolved_tt
+				has_country_flag = RGD_krain_resolved_flag
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = RGD_hamburg_triest_railway
+		icon = GFX_
+		prerequisite = { focus = RGD_trieste_port }
+		prerequisite = { focus = RGD_hamburg_port }
+#		mutually_exclusive = { focus =   }
+		x = -1
+		y = 1
+		relative_position_id = RGD_trieste_port
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = RGD_europe_trade_heart
+		icon = GFX_
+		prerequisite = { focus = RGD_hamburg_triest_railway }
+#		mutually_exclusive = { focus =   }
+		x = 0
+		y = 1
+		relative_position_id = RGD_hamburg_triest_railway
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+### REGIONAL DEVELOPMENT
+
+	focus = {
+		id = RGD_prioritize_regional_development
+		icon = GFX_
+		prerequisite = { focus = RGD_industrial_investment_program }
+#		mutually_exclusive = { focus =   }
+		x = 0
+		y = 3
+		relative_position_id = RGD_industrial_investment_program
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = RGD_rhineland_steel_industry
+		icon = GFX_
+		prerequisite = { focus = RGD_prioritize_regional_development }
+#		mutually_exclusive = { focus =   }
+		x = 3
+		y = 1
+		relative_position_id = RGD_prioritize_regional_development
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = RGD_bavarian_agrarianism
+		icon = GFX_
+		prerequisite = { focus = RGD_prioritize_regional_development }
+#		mutually_exclusive = { focus =   }
+		x = 1
+		y = 1
+		relative_position_id = RGD_prioritize_regional_development
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = RGD_northern_shipyards
+		icon = GFX_
+		prerequisite = { focus = RGD_prioritize_regional_development }
+#		mutually_exclusive = { focus =   }
+		x = -1
+		y = 1
+		relative_position_id = RGD_prioritize_regional_development
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = RGD_eastern_heavy_industry
+		icon = GFX_
+		prerequisite = { focus = RGD_prioritize_regional_development }
+#		mutually_exclusive = { focus =   }
+		x = -3
+		y = 1
+		relative_position_id = RGD_prioritize_regional_development
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = RGD_western_light_industry
+		icon = GFX_
+		prerequisite = { focus = RGD_prioritize_regional_development }
+#		mutually_exclusive = { focus =   }
+		x = -5
+		y = 1
+		relative_position_id = RGD_prioritize_regional_development
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+
+#####################################################################################
+######### POLITICS ######### POLITICS ######### POLITICS ######### POLITICS #########
+#####################################################################################
+
+
+	focus = {
+		id = RGD_propose_1929_reforms
+		icon = GFX_
+#		prerequisite = { focus =  }
+#		mutually_exclusive = { focus =   }
+		x = 30
+		y = 0
+#		relative_position_id =
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+}

@@ -1,0 +1,14 @@
+characters = {
+	BKH_alimkhan = {
+		name = "Sayyid Mir Muhammad Alim Khan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BKH/portrait_alim_khan.dds"
+			}
+		}
+		country_leader = {
+			ideology = populist_generic_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

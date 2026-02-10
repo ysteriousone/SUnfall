@@ -1,0 +1,35 @@
+state = {
+	id = 1020
+	name = "STATE_1020"
+	manpower = 500000
+	resources = {
+		steel = 6
+	}
+	
+	state_category = town
+
+	history = {
+
+		owner = RGD
+		add_core_of = RGD
+		
+		victory_points = { 
+			13378 5 # Saarbrücken
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+		}
+	
+		set_demilitarized_zone = yes
+		
+
+	}
+
+	provinces = {
+		13378
+	}
+	
+	local_supplies = 0.0 
+}

@@ -1,0 +1,14 @@
+characters = {
+	PLN_pilsudski = {
+		name = "Józef Piłsudski"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PLN/portrait_pilsudski.dds"
+			}
+		}
+		country_leader = {
+			ideology = guided_auth_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

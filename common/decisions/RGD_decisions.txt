@@ -1,0 +1,16 @@
+RGD_bundesrat_gui_category = {
+	test_placeholder_decision = {
+		icon = generic_industry
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_to_variable = {BR_BYR_support = 1}
+		}
+	}
+}

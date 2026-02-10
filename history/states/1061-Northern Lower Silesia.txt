@@ -1,0 +1,28 @@
+state={
+	id=1061
+	name="STATE_1061"
+	provinces={
+		3283 3510 6462 9470 
+	}
+
+	history = {
+
+		owner = SLE
+		add_core_of = SLE
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 5
+		}
+
+	}
+
+
+	manpower=34110
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+	state_category=large_town
+
+}

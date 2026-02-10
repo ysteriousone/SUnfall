@@ -1,0 +1,26 @@
+capital = 652
+
+#oob = "RSA_1936"
+
+set_politics = {
+  ruling_party = authoritarianist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_popularities = {
+    populist = 25
+    conservative_dem = 21
+    liberal_dem = 9
+    authoritarianist = 32
+    liberal_socialist = 4
+    radical_socialist = 9
+    mysticist = 0
+}
+
+#recruit_character = 
+
+add_ideas = {
+
+}

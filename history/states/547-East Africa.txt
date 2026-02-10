@@ -1,0 +1,27 @@
+state={
+	id=547
+	name="STATE_547"
+
+	history={
+		owner = KPC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			1939 2
+		}
+
+		add_core_of = KPC
+
+	}
+
+	provinces={
+		1939 5160 5196 10860 10962
+	}
+	manpower=1085440
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=6.000
+}

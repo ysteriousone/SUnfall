@@ -1,0 +1,26 @@
+state={
+	id=1037
+	name="STATE_1037"
+
+	history={
+		owner = RSA
+		victory_points = {
+			453 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = RSA
+		add_claim_by = UFT
+
+	}
+
+	provinces={
+		453 472 486 9463 9479 11452 
+	}
+	manpower=345676
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,28 @@
+state={
+	id=1073
+	name="STATE_1073"
+
+	history = {
+
+		owner = RGD
+		add_core_of = RGD
+		#add_core_of = BDB
+
+		victory_points = {
+			3530 10 #Karlsruhe
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+
+	provinces={
+		3530 6568 6581 
+	}
+	manpower=811545
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

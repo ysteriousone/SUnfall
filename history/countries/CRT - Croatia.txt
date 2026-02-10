@@ -1,0 +1,31 @@
+capital = 109
+
+#oob = "TBU_1936"
+
+set_politics = {
+  ruling_party = conservative_dem
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_party_name = { 
+   
+}
+
+
+set_popularities = {
+    populist = 9
+    conservative_dem = 41
+    liberal_dem = 20
+    authoritarianist = 10
+    liberal_socialist = 10
+    radical_socialist = 7
+    mysticist = 3
+}
+
+
+recruit_character = CRT_ante_trumbic
+
+
+

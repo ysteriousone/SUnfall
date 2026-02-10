@@ -1,0 +1,30 @@
+capital = 41
+
+oob = "KSP_1936"
+
+set_politics = {
+  ruling_party = authoritarianist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_party_name = { 
+  
+}
+
+
+set_popularities = {
+    populist = 15
+    conservative_dem = 11
+    liberal_dem = 9
+    authoritarianist = 51
+    liberal_socialist = 9
+    radical_socialist = 5
+    mysticist = 0
+}
+
+recruit_character = 
+
+
+

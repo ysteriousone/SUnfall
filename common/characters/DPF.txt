@@ -1,0 +1,14 @@
+characters = {
+	DPF_marcel_deat = {
+		name = "Marcel Déat"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DPF/portrait_marcel_deat.dds"
+			}
+		}
+		country_leader = {
+			ideology = guided_auth_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+characters = {
+	UNS_hoover = {
+		name = "Herbert Hoover"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UNS/portrait_hoover.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservative_dem_generic_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

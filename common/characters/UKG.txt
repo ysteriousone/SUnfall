@@ -1,0 +1,14 @@
+characters = {
+	UKG_herbert_kitchener = {
+		name = "Herbert Kitchener"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UKG/portrait_herbert_kitchener.dds"
+			}
+		}
+		country_leader = {
+			ideology = guided_auth_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

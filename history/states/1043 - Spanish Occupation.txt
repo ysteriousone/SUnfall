@@ -1,0 +1,21 @@
+state={
+	id=1043
+	name="STATE_1043"
+
+	history={
+		owner = KSP
+
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MRO
+	}
+
+	provinces={
+		1194 4097 10013
+	}
+	manpower=70000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

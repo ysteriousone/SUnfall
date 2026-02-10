@@ -1,0 +1,14 @@
+characters = {
+	KIT_gaetano_giardino = {
+		name = "Gaetano Giardino"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KIT/portrait_gaetano_giardino.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_auth_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

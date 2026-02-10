@@ -1,0 +1,277 @@
+﻿l_english:
+
+radical_socialist:0 "Radical Socialist"
+radical_socialist_noun:0 "Radical Socialism"
+radical_socialist_desc:0 "Socialist State"
+
+liberal_socialist:0 "Liberal Socialist"
+liberal_socialist_noun:0 "Liberal Socialism"
+liberal_socialist_desc:0 "Socialist Republic"
+
+liberal_dem:0 "Liberal Democratic"
+liberal_dem_noun:0 "Liberal Democracy"
+liberal_dem_desc:0 "Democratic Republic"
+
+conservative_dem:0 "Conservative Democratic"
+conservative_dem_noun:0 "Conservative Democracy"
+conservative_dem_desc:0 "Democratic Republic"
+
+authoritarianist:0 "Authoritarianist"
+authoritarianist_noun:0 "Authoritarianism"
+authoritarianist_desc:0 "Authoritarian Regime"
+
+populist:0 "Populist"
+populist_noun:0 "Populism"
+populist_desc:0 "Totalitarian Regime"
+
+mysticist:0 "Mysticist"
+mysticist_noun:0 "Mysticism"
+mysticist_desc:0 "Spiritual Realm"
+
+
+
+
+anarchist_radsoc_sub:0 "Anarchism"
+anarchist_radsoc_sub_desc:0 " "
+
+nihilist_radsoc_sub:0 "Moral Nihilism"
+nihilist_radsoc_sub_desc:0 " "
+
+dzhugashvilist_radsoc_sub:0 "Dzhugashvilism"
+dzhugashvilist_radsoc_sub_desc:0 " "
+
+techno_radsoc_sub:0 "Technocracy"
+techno_radsoc_sub_desc:0 ""
+
+
+marx_libsoc_sub:0 "Marxism"
+marx_libsoc_sub_desc:0 " "
+
+humanist_libsoc_sub:0 "Humanism"
+humanist_libsoc_sub_desc:0 ""
+
+syndicat_libsoc_sub:0 "Syndicalism"
+syndicat_libsoc_sub_desc:0 ""
+
+
+socdem_libdem_sub:0 "Social Democracy"
+socdem_libdem_sub_desc:0 " "
+
+liblism_libdem_sub:0 "Liberalism"
+liblism_libdem_sub_desc:0 ""
+
+
+christian_condem_sub:0 "Christian Conservatism"
+christian_condem_sub_desc:0 " "
+
+monarch_condem_sub:0 "Constitutional Monarchy"
+monarch_condem_sub_desc:0 ""
+
+
+military_auth_sub:0 "Military Junta"
+military_auth_sub_desc:0 ""
+
+colonial_auth_sub:0 "Colonial Administration"
+colonial_auth_sub_desc:0 ""
+
+monarch_auth_sub:0 "Monarchy"
+monarch_auth_sub_desc:0 ""
+
+tribal_auth_sub:0 "Tribalism"
+tribal_auth_sub_desc:0 ""
+
+guided_auth_sub:0 "Guided Democracy"
+guided_auth_sub_desc:0 ""
+
+corporate_auth_sub:0 "Corporatism"
+corporate_auth_sub_desc:0 ""
+
+
+strasser_populist_sub:0 "Strasserism"
+strasser_populist_sub_desc:0 " "
+
+ultnat_populist_sub:0 "Ultranationalism"
+ultnat_populist_sub_desc:0 ""
+
+volk_populist_sub:0 "Völkisch"
+volk_populist_sub_desc:0 ""
+
+
+solar_myst_sub:0 "Solarism"
+solar_myst_sub_desc:0 ""
+
+pagan_myst_sub:0 "Paganism"
+pagan_myst_sub_desc:0 ""
+
+christ_myst_sub:0 "Christian Theocracy"
+christ_myst_sub_desc:0 ""
+
+islam_myst_sub:0 "Islamic Theocracy"
+islam_myst_sub_desc:0 ""
+
+satan_myst_sub:0 "Satanism"
+satan_myst_sub_desc:0 ""
+
+aryan_myst_sub:0 "Aryanism"
+aryan_myst_sub_desc:0 ""
+
+occult_myst_sub:0 "Occultism"
+occult_myst_sub_desc:0 ""
+
+
+### Hungarian Party Names ###
+
+HSR_radical_socialist_party:0 "MKP"
+HSR_radical_socialist_party_long:0 "Magyar Kommunista Párt"
+
+HSR_liberal_socialist_party:0 "MSZP"
+HSR_liberal_socialist_party_long:0 "Magyar Szocialista Párt"
+
+HSR_liberal_dem_party:0 "MSZDP"
+HSR_liberal_dem_party_long:0 "Magyarországi Szociáldemokrata Párt"
+
+HSR_conservative_dem_party:0 "FKGP"
+HSR_conservative_dem_party_long:0 "Független Kisgazda-, Földmunkás- és Polgári Párt"
+
+HSR_authoritarianist_party:0 "Magyar Honvédség"
+HSR_authoritarianist_party_long:0 "Magyar Honvédség"
+
+HSR_populist_party:0 "Far Right Loyalists"
+HSR_populist_party_long:0 "Far Right Loyalists"
+
+HSR_mysticist_party:0 "Hungarian Occultists"
+HSR_mysticist_party_long:0 "Hungarian Occultists"
+
+
+###Zapa zapo###
+
+PLN_radical_socialist_party:0 "PPR"
+PLN_radical_socialist_party_long:0 "Polska Partia Robotnicza na rzecz przewrotu antykapitalistycznego i wolnej rewolucji wszystkich demokratycznych obywateli"
+
+PLN_liberal_socialist_party:0 "PZZ"
+PLN_liberal_socialist_party_long:0 "Polskie związki zawodowe"
+
+PLN_liberal_dem_party:0 "WP"
+PLN_liberal_dem_party_long:0 "Wolna Partia"
+
+PLN_conservative_dem_party:0 "PP"
+PLN_conservative_dem_party_long:0 "Partia Polaków"
+
+PLN_authoritarianist_party:0 "Sanacja"
+PLN_authoritarianist_party_long:0 "Sanacja"
+
+PLN_populist_party:0 "RD"
+PLN_populist_party_long:0 "Reforma demokratyczna"
+
+PLN_mysticist_party:0 "PCO"
+PLN_mysticist_party_long:0 "Partia Chrześcijańsko-Ortodoksyjna"
+
+DAN_radical_socialist_party:0 "DSR-GRR"
+DAN_radical_socialist_party_long:0 "Danziger Räterepublik / Gdańska Republika Radziecka"
+
+DAN_liberal_socialist_party:0 "MG"
+DAN_liberal_socialist_party_long:0 "Młodzi Gdańszczanie"
+
+DAN_liberal_dem_party:0 "PNR"
+DAN_liberal_dem_party_long:0 "Partia Niepodległości i Regionalizmu"
+
+DAN_conservative_dem_party:0 "IG"
+DAN_conservative_dem_party_long:0 "Impreza w Gdańsku"
+
+DAN_authoritarianist_party:0 "WPG"
+DAN_authoritarianist_party_long:0 "Wolna Partia Gdańska"
+
+DAN_populist_party:0 "Gda´nska Partia"
+DAN_populist_party_long:0 "Gdańska Partia Niepodległości"
+
+DAN_mysticist_party:0 "CG"
+DAN_mysticist_party_long:0 "Christian Gdańsk"
+
+CZC_radical_socialist_party:0 "ČSNS"
+CZC_radical_socialist_party_long:0 "Československá strana národně socialistická"
+
+CZC_liberal_socialist_party:0 "ČSSD"
+CZC_liberal_socialist_party_long:0 "Česká strana sociálně demokratická"
+
+CZC_liberal_dem_party:0 "LČ"
+CZC_liberal_dem_party_long:0 "Liberální Češi"
+
+CZC_conservative_dem_party:0 "ČMN"
+CZC_conservative_dem_party_long:0 "Česká strana pro mír a nezávislost"
+
+CZC_authoritarianist_party:0 "PRG"
+CZC_authoritarianist_party_long:0 "Pražská revoluční garda"
+
+CZC_populist_party:0 "Bohémska párty"
+CZC_populist_party_long:0 "Bohémská párty"
+
+CZC_mysticist_party:0 "KDU"
+CZC_mysticist_party_long:0 "Československá strana lidová"
+
+SLE_radical_socialist_party:0 "FSŚ"
+SLE_radical_socialist_party_long:0 "Front Socjalistyczny dla Śląska"
+
+SLE_liberal_socialist_party:0 "ZZŚ"
+SLE_liberal_socialist_party_long:0 "Związki zawodowe śląskie"
+
+SLE_liberal_dem_party:0 "ŚPWN"
+SLE_liberal_dem_party_long:0 "Śląska Partia Wszystkich Narodów"
+
+SLE_conservative_dem_party:0 "ŚK"
+SLE_conservative_dem_party_long:0 "Śląska konserwacja"
+
+SLE_authoritarianist_party:0 "Gwa' Wrocławska"
+SLE_authoritarianist_party_long:0 "Gwardia wrocławska"
+
+SLE_populist_party:0 "PP"
+SLE_populist_party_long:0 "Partia populistynczna"
+
+SLE_mysticist_party:0 "ŚCH"
+SLE_mysticist_party_long:0 "Śląsk chrześcijański"
+
+
+### UNS ###
+
+UNS_radical_socialist_party:0 "Browderites"
+UNS_radical_socialist_party_long:0 "Radical wing of the SPA"
+
+UNS_liberal_socialist_party:0 "SPA"
+UNS_liberal_socialist_party_long:0 "Socialist Party of America"
+
+UNS_liberal_dem_party:0 "Democrats"
+UNS_liberal_dem_party_long:0 "Democratic Party"
+
+UNS_conservative_dem_party:0 "GOP"
+UNS_conservative_dem_party_long:0 "Republican Party"
+
+UNS_authoritarianist_party:0 "US Army"
+UNS_authoritarianist_party_long:0 "Armed Forces of the United States"
+
+UNS_populist_party:0 "PU"
+UNS_populist_party_long:0 "Popular Union"
+
+UNS_mysticist_party:0 "KKK"
+UNS_mysticist_party_long:0 "Ku Klux Klan"
+
+## #KIT ###
+
+KIT_radical_socialist_party:0 "PCI"
+KIT_radical_socialist_party_long:0 "Communist Party of Italy"
+
+KIT_liberal_socialist_party:0 "PSI"
+KIT_liberal_socialist_party_long:0 "Socialist Party of Italy"
+
+KIT_liberal_dem_party:0 "PPI"
+KIT_liberal_dem_party_long:0 "Italian Peoples Party"
+
+KIT_conservative_dem_party:0 "BN"
+KIT_conservative_dem_party_long:0 "National Block"
+
+KIT_authoritarianist_party:0 "Italian Army"
+KIT_authoritarianist_party_long:0 "Armed Forces of the Kingdom of Italy"
+
+KIT_populist_party:0 "Vinculum"
+KIT_populist_party_long:0 "Vinculist Party of Italy"
+
+KIT_mysticist_party:0 "RRL"
+KIT_mysticist_party_long:0 "Roman Restoration League"

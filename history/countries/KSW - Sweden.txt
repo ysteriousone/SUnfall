@@ -1,0 +1,23 @@
+capital = 141
+
+#oob = "KSW_1936"
+
+set_politics = {
+  ruling_party = liberal_dem
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_popularities = {
+    populist = 7
+    conservative_dem = 3
+    liberal_dem = 36
+    authoritarianist = 24
+    liberal_socialist = 20
+    radical_socialist = 10
+    mysticist = 0
+}
+
+#recruit_character = 
+

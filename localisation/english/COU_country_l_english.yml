@@ -1,0 +1,42 @@
+﻿l_english:
+ COU:0 "Duchy of Courland"
+ COU_DEF:0 "the Duchy of Courland and Semigallia"
+ COU_ADJ:0 "Couronian"
+
+### Party Names ###
+
+COU_radical_socialist_party:0 "Kommune Kurland"
+COU_radical_socialist_party_long:0 "Kommunen und Räte von Kurland"
+
+COU_liberal_socialist_party:0 "KPD"
+COU_liberal_socialist_party_long:0 "Kommunistische Partei Deutschlands Kurland"
+
+COU_liberal_dem_party:0 "SPD"
+COU_liberal_dem_party_long:0 "Sozialdemokratische Partei Deutschlands in Kurland"
+
+COU_conservative_dem_party:0 "Zentrum"
+COU_conservative_dem_party_long:0 "Zentrumspartei Kurland"
+
+COU_authoritarianist_party:0 "House of Biron"
+COU_authoritarianist_party_long:0 "House of Biron and the Junkers"
+
+COU_populist_party:0 "Landswehr"
+COU_populist_party_long:0 "Baltische Landswehr Radicals"
+
+COU_mysticist_party:0 "Teutonic Order"
+COU_mysticist_party_long:0 "Reformed Teutonic Order of Courland"
+
+
+### Ideas ###
+
+COU_baltic_german_refugees:0 "Baltic German Refugees"
+COU_baltic_german_refugees_desc:0 "While Baltic Germans lived together with Russians, Latvians, Estonians and Lithanians for centuries, being accepted within society and keeping their own culture and language, this all changed when the German Empire invaded, causing suffering and spurring hatred among the locals. Because of that, when the Baltic Duchy and the German Kingdom of Lithuania collapsed, the new governments started a war on German culture, German language and the German people, especially the radical regime to our north. As the last remnants of Germany in the region, many Baltic Germans now seek refuge under our leadership, and without a home, a job or even food, these migrants are starting to cause more and more unrest, strengthening the many radical movements threatening our rule."
+
+COU_forest_brothers_resistance:0 "Forest Brothers Resistance"
+COU_forest_brothers_resistance_desc:0 "The Forest Brothers first emerged as a nationalist group in the Russian Revolution of 1905, fighting against Russian rule at the time. Because of that, when our forces marched against Russia, they fought along us, especially so as the Russian civil war broke out. It was only after their reorganization into a paramilitary force by the Latvian State that they started to not only fight against the Russians, but all foreign forces, us included. These days, they act as little more than an arm for the Latvian government, reaching far into our territory and sparking unrest in the locals, and their relentless guerilla war in the forests of our nation is a constant drain on our military and government."
+
+COU_landswehr_radicalism:0 "Landswehr Radicalism"
+COU_landswehr_radicalism_desc:0 "The Baltische Landswehr was first founded as a military force defending the newly founded United Baltic Duchy and the Duchy of Courland under Major-General Rüdiger von der Goltz, former governor of Courland, as the German Heer retreated from the East in 1912. While at first being purely for defensive purposes and serving the Baltic nobility ruling the remaining lands, as the United Baltic Duchy collapsed into chaos and the nobels and soldiers retreated over the Daugava river into Courland and radical ideas started to rise in the German homeland, many prominent military leaders, including von der Goltz, picked up these ideas and fused them with the hatred for the locals that had been on the rise ever since the Baltic Duchys collapse. This new Landswehr is controlled by the government only on paper while in reality serving the ultranitionalist and militaristic goals of the Major-General."
+
+COU_rittertum:0 "Rittertum"
+COU_rittertum_desc:0 "While the old Livonian Orders are long gone, a new organization claiming to be its sucessor has risen in the wake of the chaos and unrest our nation and people have to face every day. This group, calling itself Deutschritter, or Teutonic Kinghts, has little to no ties to the old knightly order of the same name, with most of its members, including its founder and leader, a Baltic German artist and anti-communist author by the name of Alfred Rosenberg, having no noble ancestory or titles. Still, with religious and political extremism on the rise all across the world, this somwhat absurd group has gained significant influence, especially with soldiers and refugees."

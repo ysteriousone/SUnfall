@@ -1,0 +1,28 @@
+state={
+	id=1056
+	name="STATE_1056"
+
+	history = {
+
+		owner = RGD
+		add_core_of = RGD
+
+		victory_points = {
+			6298 1 # Lüneburg
+		}
+
+		buildings = {
+			infrastructure = 2
+
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		6218 6298 9238 9264 9375 
+	}
+	manpower=603732
+	state_category=large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+state={
+	id=1070
+	name="STATE_1070"
+
+	history = {
+
+		owner = BYI
+		add_core_of = BYI
+
+		buildings = {
+			infrastructure = 1
+			2029 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		 2029
+	}
+	manpower=1200
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

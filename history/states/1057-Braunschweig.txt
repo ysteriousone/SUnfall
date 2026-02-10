@@ -1,0 +1,28 @@
+state={
+	id=1057
+	name="STATE_1057"
+
+	history = {
+
+		owner = RGD
+		add_core_of = RGD
+
+		victory_points = {
+			526 3 # Braunschweig
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces={
+		526 6513 11402 11468 
+	}
+	manpower=412989
+	state_category=large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

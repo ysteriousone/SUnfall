@@ -1,0 +1,35 @@
+state={
+	id=1053
+	name="STATE_1053"
+
+	history = {
+
+		owner = CTO
+		add_core_of = CTO
+
+		buildings = {
+			infrastructure = 4 #was: 5
+			industrial_complex = 1
+			air_base = 1
+
+			12589 = {
+				naval_base = 4
+			    # Woodhead Dam
+				dam = 1
+			}
+		}
+
+		victory_points = {
+			12589 10 # Cape Town
+		}
+
+	}
+
+	provinces={
+		12589 13427 13428 13429 
+	}
+	manpower=355200
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

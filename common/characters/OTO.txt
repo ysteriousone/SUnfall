@@ -1,0 +1,14 @@
+characters = {
+	OTO_abdulmejid = {
+		name = "Abdulmejid II"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OTO/portrait_abdulmejid.dds"
+			}
+		}
+		country_leader = {
+			ideology = monarch_auth_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

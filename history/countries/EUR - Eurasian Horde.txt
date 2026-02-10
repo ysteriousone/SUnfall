@@ -1,0 +1,45 @@
+capital = 881
+
+#oob = "EUR_1936"
+
+set_politics = {
+  ruling_party = populist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_popularities = {
+    populist = 83
+    conservative_dem = 1
+    liberal_dem = 0
+    authoritarianist = 10
+    liberal_socialist = 0
+    radical_socialist = 3
+    mysticist = 3
+}
+
+recruit_character = EUR_nikolaevich
+
+add_ideas = {
+	EUR_cradle
+	EUR_expedition
+	EUR_religion
+	EUR_hardships
+	EUR_tributary
+}
+
+set_autonomy = {
+  target = KHV
+  autonomous_state = autonomy_tributary
+}
+
+set_autonomy = {
+  target = BKH
+  autonomous_state = autonomy_tributary
+}
+
+set_autonomy = {
+  target = ETU
+  autonomous_state = autonomy_tributary
+}

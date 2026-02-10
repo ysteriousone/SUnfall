@@ -1,0 +1,32 @@
+state={
+	id=251
+	name="STATE_251"
+
+	history = {
+
+		owner = ORE
+		add_core_of = ORE
+
+		victory_points = {
+			11225 3 # Kuybyshev
+		}
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			arms_factory = 2
+			air_base = 1
+
+			# Kuybyshev Hydroelectric Station
+			#6275 = { dam = 1 }
+
+		}
+	}
+
+	provinces={
+		292 298 338 339 355 365 393 403 497 3214 3216 3328 3348 3382 6308 6352 6368 6404 9243 9271 9299 9365 9385 9391 9401 9514 10301 11225 11256 11273 11281 11319 11339 11348 11377 11389 11496 
+	}
+	manpower=1391819
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

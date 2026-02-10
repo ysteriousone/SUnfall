@@ -1,0 +1,27 @@
+﻿l_english:
+ UKG:0 "United Kingdom"
+ UKG_DEF:0 "the United Kingdom of Great Britain"
+ UKG_ADJ:0 "British"
+
+### Party Names ###
+
+UKG_radical_socialist_party:0 "APCF"
+UKG_radical_socialist_party_long:0 "Anti-Parliamentary Communist Federation"
+
+UKG_liberal_socialist_party:0 "CPGB"
+UKG_liberal_socialist_party_long:0 "Communist Party of Great Britain"
+
+UKG_liberal_dem_party:0 "Labour"
+UKG_liberal_dem_party_long:0 "Labour Party"
+
+UKG_conservative_dem_party:0 "Conservative Party"
+UKG_conservative_dem_party_long:0 "Conservative and Unionist Party"
+
+UKG_authoritarianist_party:0 "Emergency Government"
+UKG_authoritarianist_party_long:0 "Emergency Government of the Lord Protector"
+
+UKG_populist_party:0 "VPB"
+UKG_populist_party_long:0 "Vinculist Party of Britain"
+
+UKG_mysticist_party:0 "SRIA"
+UKG_mysticist_party_long:0 "Societas Rosicruciana in Anglia"

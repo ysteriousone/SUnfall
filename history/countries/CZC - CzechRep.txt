@@ -1,0 +1,46 @@
+capital = 9
+
+#oob = "DPF_1936"
+
+set_politics = {
+  ruling_party = authoritarianist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_party_name = { 
+   
+}
+
+
+set_popularities = {
+    populist = 1
+    conservative_dem = 27
+    liberal_dem = 1
+    authoritarianist = 68
+    liberal_socialist = 1
+    radical_socialist = 1
+    mysticist = 1
+}
+
+
+create_faction = "Zapadoslavian Confederation"
+add_to_faction = PLN
+add_to_faction = SLE
+add_to_faction = DAN
+
+set_autonomy = {
+    target = PLN
+    autonomous_state = autonomy_confed_member
+}
+
+set_autonomy = {
+    target = SLE
+    autonomous_state = autonomy_mandate
+}
+
+#recruit_character =
+
+
+

@@ -1,0 +1,26 @@
+state={
+	id=1026
+	name="STATE_1026"
+
+	history = {
+
+		owner = KPE
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+		add_core_of = KPE
+		add_core_of = EUR
+
+	}
+
+	provinces={
+		1593 4563 4599 7477 7563 7635 10359 10406 10510 12359 
+	}
+	manpower=255002
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

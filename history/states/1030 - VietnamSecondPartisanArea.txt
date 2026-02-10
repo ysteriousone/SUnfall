@@ -1,0 +1,31 @@
+
+state={
+	id=1030
+	name="STATE_1030"
+	manpower = 1500000
+	
+	state_category = town
+	
+	resources={
+		steel=3
+		tungsten=1
+	}
+
+
+	history={
+		add_core_of = SVE
+		owner = SVE
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			air_base = 0
+		}
+
+	}
+
+	provinces={
+		7015 7518 9948 12065
+	}
+
+	local_supplies=0.0 
+}

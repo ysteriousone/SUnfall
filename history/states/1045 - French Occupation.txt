@@ -1,0 +1,21 @@
+state={
+	id=1045
+	name="STATE_1045"
+
+	history={
+		owner = DPF
+
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MRO
+	}
+
+	provinces={
+		989 1111 4154 4933 7116 7908 7958
+	}
+	manpower=70000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

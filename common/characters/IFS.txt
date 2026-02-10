@@ -1,0 +1,14 @@
+characters = {
+	IFS_sapru = {
+		name = "Tej Bahadur Sapru"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IFS/portrait_sapru.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberal_dem_generic_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+state={
+	id=1064
+	name="STATE_1064"
+
+	history = {
+
+		owner = TER
+		add_core_of = TER
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		12199 1348 4355  7399
+	}
+	manpower=211887
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

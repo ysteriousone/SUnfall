@@ -1,0 +1,32 @@
+capital = 809
+
+#oob = "TBU_1936"
+
+set_politics = {
+  ruling_party = authoritarianist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_popularities = {
+    populist = 6
+    conservative_dem = 7
+    liberal_dem = 2
+    authoritarianist = 74
+    liberal_socialist = 2
+    radical_socialist = 0
+    mysticist = 9
+}
+
+recruit_character = COU_ernst_gustav
+
+add_ideas = {
+  COU_baltic_german_refugees
+  COU_forest_brothers_resistance
+  COU_landswehr_radicalism
+  COU_rittertum
+}
+
+
+

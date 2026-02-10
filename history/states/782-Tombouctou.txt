@@ -1,0 +1,20 @@
+state={
+	id=782
+	name="STATE_782"
+
+	history={
+		owner = SAH
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		1095 1115 1958 2044 2068 5095 5101 7041 10725 10749 10788 10868 12849 
+	}
+	manpower=79243
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

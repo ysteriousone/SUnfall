@@ -1,0 +1,34 @@
+state={
+	id=56
+	name="STATE_56"
+
+	history = {
+
+		owner = RGD
+		add_core_of = RGD
+
+		victory_points = {
+			11360 1 # Emden
+		}
+
+		victory_points = {
+			11388 5 # Münster
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			fuel_silo = 1
+			air_base = 3
+		}
+
+	}
+
+	provinces={
+		247 336 9281 11233 11264 11360 11388
+	}
+	manpower=1358467
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=14.000
+}

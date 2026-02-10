@@ -1,0 +1,26 @@
+capital = 657
+
+#oob = "AMU_1936"
+
+set_politics = {
+  ruling_party = authoritarianist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_popularities = {
+    populist = 20
+    conservative_dem = 5
+    liberal_dem = 5
+    authoritarianist = 60
+    liberal_socialist = 0
+    radical_socialist = 0
+    mysticist = 10
+}
+
+recruit_character = AMU_grigory_semyonov
+
+add_ideas = {
+
+}

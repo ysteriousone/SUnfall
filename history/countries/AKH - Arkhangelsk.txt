@@ -1,0 +1,26 @@
+capital = 214
+
+#oob = "RSA_1936"
+
+set_politics = {
+  ruling_party = authoritarianist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_popularities = {
+    populist = 15
+    conservative_dem = 9
+    liberal_dem = 3
+    authoritarianist = 55
+    liberal_socialist = 4
+    radical_socialist = 9
+    mysticist = 5
+}
+
+recruit_character = AKH_pavel_dybenko 
+
+add_ideas = {
+
+}

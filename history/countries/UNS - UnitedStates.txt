@@ -1,0 +1,31 @@
+capital = 361
+
+#oob = "UNS_1936"
+
+set_politics = {
+  ruling_party = conservative_dem 
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_party_name = { 
+   
+}
+
+
+set_popularities = {
+    populist = 7
+    conservative_dem = 43
+    liberal_dem = 39
+    authoritarianist = 1
+    liberal_socialist = 8
+    radical_socialist = 2
+    mysticist = 0
+}
+
+
+recruit_character = UNS_hoover
+
+
+

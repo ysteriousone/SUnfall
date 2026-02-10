@@ -1,0 +1,21 @@
+state={
+	id=1035
+	name="STATE_1035"
+
+	history = {
+
+		owner = MAG
+		add_core_of = MAG
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		13410 13411 13412 13415 13416 
+	}
+	manpower=7455
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+capital = 620
+
+#oob = "CHN_1936"
+
+set_politics = {
+  ruling_party = conservative_dem
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_popularities = {
+    populist = 5
+    conservative_dem = 42
+    liberal_dem = 27
+    authoritarianist = 26
+    liberal_socialist = 0
+    radical_socialist = 0
+    mysticist = 0
+}
+
+#recruit_character = 
+
+add_ideas = {
+
+}

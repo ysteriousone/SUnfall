@@ -1,0 +1,29 @@
+
+state={
+	id=1031
+	name="STATE_1031"
+	manpower = 1000000
+	
+	state_category = town
+	
+	resources={
+	}
+
+
+	history={
+		add_core_of = KVE
+		owner = KVE
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			air_base = 1
+		}
+
+	}
+
+	provinces={
+		1248 4255 7229 10137 10180 10309
+	}
+
+	local_supplies=0.0 
+}

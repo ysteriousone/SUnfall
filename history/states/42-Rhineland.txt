@@ -1,0 +1,44 @@
+state={
+	id=42
+	name="STATE_42"
+	resources={
+		steel=35.000
+		aluminium=9.000
+	}
+
+	history = {
+
+		owner = RGD
+		add_core_of = RGD
+
+		victory_points = {
+			11435 1 # Bitburg
+		}
+
+		victory_points = {
+			3423 3 # Koblenz
+		}
+
+		victory_points = {
+			9575 3 # Trier
+		}
+
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+
+		set_demilitarized_zone = yes
+
+
+	}
+
+	provinces={
+		3423 9575 11435 11470 11494
+	}
+	manpower=2627739
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

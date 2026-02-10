@@ -1,0 +1,27 @@
+state={
+	id=844
+	name="STATE_844"
+
+	history = {
+		owner = MMJ
+		add_core_of = MMJ
+		victory_points = {
+		 	12941 1
+		}
+		buildings = {
+			infrastructure = 2
+			12941 = {
+				naval_base = 2
+			}
+
+		}
+	}
+
+	provinces={
+		10761 10976 12941 
+	}
+	manpower=1028895
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

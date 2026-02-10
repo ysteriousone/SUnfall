@@ -1,0 +1,14 @@
+characters = {
+	RSA_nikolai_romanow = {
+		name = "Nikolai Romanow"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RSA/portrait_nikolai_romanow.dds"
+			}
+		}
+		country_leader = {
+			ideology = aristo_monrch_auth_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

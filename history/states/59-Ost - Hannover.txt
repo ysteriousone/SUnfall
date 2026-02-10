@@ -1,0 +1,31 @@
+state={
+	id=59
+	name="STATE_59"
+	resources={
+		oil=2.000
+	}
+
+	history = {
+
+		owner = RGD
+		add_core_of = RGD
+
+		victory_points = {
+			6377 10 # Hannover
+		}
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+
+		}
+	}
+
+	provinces={
+		3395 6377 11493
+	}
+	manpower=638286
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

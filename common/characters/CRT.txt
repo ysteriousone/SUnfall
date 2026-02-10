@@ -1,0 +1,14 @@
+characters = {
+	CRT_ante_trumbic = {
+		name = "Ante Trumbić"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CRT/portrait_ante_trumbic.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservative_dem_generic_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

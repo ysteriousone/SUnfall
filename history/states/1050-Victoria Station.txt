@@ -1,0 +1,22 @@
+state={
+	id=1050
+	name="STATE_1050"
+	history = {
+		owner = VCC
+		add_core_of = VCC
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			13426 1 # Port Victoria
+		}
+	}
+	provinces={
+		13425 13426
+	}
+	manpower=17400
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

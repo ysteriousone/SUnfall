@@ -1,0 +1,211 @@
+bookmarks = {
+	bookmark = {
+		name = "When the fire went out"
+		desc = "WHEN_THE_FIRE_WENT_OUT_LOC"
+		date = 1929.1.1.12
+		picture = "GFX_firewentoutbookmark"
+		default_country = "RGD"
+		default = yes
+		
+		"RGD"={
+			history = "RGD_GATHERING_STORM_DESC"
+			ideology = conservative_dem
+			ideas = {
+#				FRA_victors_of_wwi
+#				FRA_disjointed_government
+#				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+#				FRA_form_the_popular_front
+#				FRA_revive_the_national_bloc
+#				FRA_france_leads
+			}
+		}
+
+		"UNS"={
+			history = "UNS_GATHERING_STORM_DESC"
+			ideology = conservative_dem
+			ideas = {
+#				FRA_victors_of_wwi
+#				FRA_disjointed_government
+#				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+#				FRA_form_the_popular_front
+#				FRA_revive_the_national_bloc
+#				FRA_france_leads
+			}
+		}
+
+		"RSA"={
+			history = "RSA_GATHERING_STORM_DESC"
+			ideology = authoritarianist
+			ideas = {
+#				FRA_victors_of_wwi
+#				FRA_disjointed_government
+#				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+#				FRA_form_the_popular_front
+#				FRA_revive_the_national_bloc
+#				FRA_france_leads
+			}
+		}
+
+		"EUR"={
+			history = "EUR_GATHERING_STORM_DESC"
+			ideology = populist
+			ideas = {
+#				FRA_victors_of_wwi
+#				FRA_disjointed_government
+#				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+#				FRA_form_the_popular_front
+#				FRA_revive_the_national_bloc
+#				FRA_france_leads
+			}
+		}
+
+
+		"DPF"={
+			history = "DPF_GATHERING_STORM_DESC"
+			ideology = authoritarianist
+			ideas = {
+#				FRA_victors_of_wwi
+#				FRA_disjointed_government
+#				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+#				FRA_form_the_popular_front
+#				FRA_revive_the_national_bloc
+#				FRA_france_leads
+			}
+		}
+
+		"MAG"={
+			history = "MAG_GATHERING_STORM_DESC"
+			ideology = authoritarianist
+			ideas = {
+#				FRA_victors_of_wwi
+#				FRA_disjointed_government
+#				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+#				FRA_form_the_popular_front
+#				FRA_revive_the_national_bloc
+#				FRA_france_leads
+			}
+		}
+
+		"OTO"={
+			history = "OTO_GATHERING_STORM_DESC"
+			ideology = authoritarianist
+			ideas = {
+#				FRA_victors_of_wwi
+#				FRA_disjointed_government
+#				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+#				FRA_form_the_popular_front
+#				FRA_revive_the_national_bloc
+#				FRA_france_leads
+			}
+		}
+
+		"UKG"={
+			history = "UKG_GATHERING_STORM_DESC"
+			ideology = authoritarianist
+			ideas = {
+#				FRA_victors_of_wwi
+#				FRA_disjointed_government
+#				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+#				FRA_form_the_popular_front
+#				FRA_revive_the_national_bloc
+#				FRA_france_leads
+			}
+		}
+
+		"ASZ"={
+			minor = yes
+			history = "ASZ_GATHERING_STORM_DESC"
+			ideology = liberal_dem
+			ideas = {
+#				CAN_great_depression_1
+#				CAN_conscription_crisis
+			}
+			focuses = {
+#				CAN_skewer_the_eagle
+#				CAN_north_american_alliance
+#				CAN_join_comintern
+			}
+		}
+
+		"COU"={
+			minor = yes
+			history = "COU_GATHERING_STORM_DESC"
+			ideology = authoritarianist
+			ideas = {
+#				CAN_great_depression_1
+#				CAN_conscription_crisis
+			}
+			focuses = {
+#				CAN_skewer_the_eagle
+#				CAN_north_american_alliance
+#				CAN_join_comintern
+			}
+		}
+
+		"MIR"={
+			minor = yes
+			history = "MIR_GATHERING_STORM_DESC"
+			ideology = authoritarianist
+			ideas = {
+#				CAN_great_depression_1
+#				CAN_conscription_crisis
+			}
+			focuses = {
+#				CAN_skewer_the_eagle
+#				CAN_north_american_alliance
+#				CAN_join_comintern
+			}
+		}
+
+		"PLN"={
+			minor = yes
+			history = "PLN_GATHERING_STORM_DESC"
+			ideology = authoritarianist
+			ideas = {
+#				CAN_great_depression_1
+#				CAN_conscription_crisis
+			}
+			focuses = {
+#				CAN_skewer_the_eagle
+#				CAN_north_american_alliance
+#				CAN_join_comintern
+			}
+		}
+
+		"HSR"={
+			minor = yes
+			history = "HSR_GATHERING_STORM_DESC"
+			ideology = radical_socialist
+			ideas = {
+#				CAN_great_depression_1
+#				CAN_conscription_crisis
+			}
+			focuses = {
+#				CAN_skewer_the_eagle
+#				CAN_north_american_alliance
+#				CAN_join_comintern
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

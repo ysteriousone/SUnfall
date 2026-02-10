@@ -1,0 +1,214 @@
+﻿l_english:
+
+radical_socialist:0 "Radical Socialist"
+radical_socialist_noun:0 "Radical Socialism"
+radical_socialist_desc:0 "Socialist State"
+
+liberal_socialist:0 "Liberal Socialist"
+liberal_socialist_noun:0 "Liberal Socialism"
+liberal_socialist_desc:0 "Socialist Republic"
+
+liberal_dem:0 "Liberal Democratic"
+liberal_dem_noun:0 "Liberal Democracy"
+liberal_dem_desc:0 "Democratic Republic"
+
+conservative_dem:0 "Conservative Democratic"
+conservative_dem_noun:0 "Conservative Democracy"
+conservative_dem_desc:0 "Democratic Republic"
+
+authoritarianist:0 "Authoritarianist"
+authoritarianist_noun:0 "Authoritarianism"
+authoritarianist_desc:0 "Authoritarian Regime"
+
+populist:0 "Populist"
+populist_noun:0 "Populism"
+populist_desc:0 "Totalitarian Regime"
+
+mysticist:0 "Mysticist"
+mysticist_noun:0 "Mysticism"
+mysticist_desc:0 "Spiritual Realm"
+
+
+
+
+anarchist_radsoc_sub:0 "Anarchism"
+anarchist_radsoc_sub_desc:0 " "
+
+nihilist_radsoc_sub:0 "Moral Nihilism"
+nihilist_radsoc_sub_desc:0 " "
+
+dzhugashvilist_radsoc_sub:0 "Dzhugashvilism"
+dzhugashvilist_radsoc_sub_desc:0 " "
+
+techno_radsoc_sub:0 "Technocracy"
+techno_radsoc_sub_desc:0 ""
+
+soviet_radsoc_sub:0 "Soviet Socialism"
+soviet_radsoc_sub_desc:0 ""
+
+
+marx_libsoc_sub:0 "Marxism"
+marx_libsoc_sub_desc:0 " "
+
+humanist_libsoc_sub:0 "Humanism"
+humanist_libsoc_sub_desc:0 ""
+
+syndicat_libsoc_sub:0 "Syndicalism"
+syndicat_libsoc_sub_desc:0 ""
+
+
+socdem_libdem_sub:0 "Social Democracy"
+socdem_libdem_sub_desc:0 " "
+
+liblism_libdem_sub:0 "Liberalism"
+liblism_libdem_sub_desc:0 ""
+
+
+christian_condem_sub:0 "Christian Conservatism"
+christian_condem_sub_desc:0 " "
+
+monarch_condem_sub:0 "Constitutional Monarchy"
+monarch_condem_sub_desc:0 ""
+
+
+military_auth_sub:0 "Military Junta"
+military_auth_sub_desc:0 ""
+
+colonial_auth_sub:0 "Colonial Administration"
+colonial_auth_sub_desc:0 ""
+
+monarch_auth_sub:0 "Monarchy"
+monarch_auth_sub_desc:0 ""
+
+tribal_auth_sub:0 "Tribalism"
+tribal_auth_sub_desc:0 ""
+
+guided_auth_sub:0 "Guided Democracy"
+guided_auth_sub_desc:0 ""
+
+corporate_auth_sub:0 "Corporatism"
+corporate_auth_sub_desc:0 ""
+
+
+strasser_populist_sub:0 "Strasserism"
+strasser_populist_sub_desc:0 " "
+
+ultnat_populist_sub:0 "Ultranationalism"
+ultnat_populist_sub_desc:0 ""
+
+volk_populist_sub:0 "Völkisch"
+volk_populist_sub_desc:0 ""
+
+
+solar_myst_sub:0 "Solarism"
+solar_myst_sub_desc:0 ""
+
+pagan_myst_sub:0 "Paganism"
+pagan_myst_sub_desc:0 ""
+
+christ_myst_sub:0 "Christian Theocracy"
+christ_myst_sub_desc:0 ""
+
+islam_myst_sub:0 "Islamic Theocracy"
+islam_myst_sub_desc:0 ""
+
+satan_myst_sub:0 "Satanism"
+satan_myst_sub_desc:0 ""
+
+aryan_myst_sub:0 "Aryanism"
+aryan_myst_sub_desc:0 ""
+
+occult_myst_sub:0 "Occultism"
+occult_myst_sub_desc:0 ""
+
+### Hungarian Party Names ###
+
+HSR_radical_socialist_party:0 "MKP"
+HSR_radical_socialist_party_long:0 "Magyar Kommunista Párt"
+
+HSR_liberal_socialist_party:0 "MSZP"
+HSR_liberal_socialist_party_long:0 "Magyar Szocialista Párt"
+
+HSR_liberal_dem_party:0 "MSZDP"
+HSR_liberal_dem_party_long:0 "Magyarországi Szociáldemokrata Párt"
+
+HSR_conservative_dem_party:0 "FKGP"
+HSR_conservative_dem_party_long:0 "Független Kisgazda-, Földmunkás- és Polgári Párt"
+
+HSR_authoritarianist_party:0 "Magyar Honvédség"
+HSR_authoritarianist_party_long:0 "Magyar Honvédség"
+
+HSR_populist_party:0 "Far Right Loyalists"
+HSR_populist_party_long:0 "Far Right Loyalists"
+
+HSR_mysticist_party:0 "Hungarian Occultists"
+HSR_mysticist_party_long:0 "Hungarian Occultists"
+
+### French Party Names ###
+
+DPF_radical_socialist_party:0 "GP"
+DPF_radical_socialist_party_long:0 "Gauche prolétarienne"
+
+DPF_liberal_socialist_party:0 "PSF"
+DPF_liberal_socialist_party_long:0 "Parti socialiste français"
+
+DPF_liberal_dem_party:0 "ARD"
+DPF_liberal_dem_party_long:0 "Alliance républicaine démocratique"
+
+DPF_conservative_dem_party:0 "AF"
+DPF_conservative_dem_party_long:0 "Action Française"
+
+DPF_authoritarianist_party:0 "Directorate"
+DPF_authoritarianist_party_long:0 "le conseil d'administration"
+
+DPF_populist_party:0 "CdF"
+DPF_populist_party_long:0 "Croix-de-Feu"
+
+DPF_mysticist_party:0 "UFL"
+DPF_mysticist_party_long:0 "Union française de la libération" # Inspired by Alexandre Saint-Yves d'Alveydre"
+
+### Mirny Party Names ###
+
+MIR_radical_socialist_party:0 "MPB"
+MIR_radical_socialist_party_long:0 "Mirninskaya partiya bol'shevikov"
+
+MIR_liberal_socialist_party:0 "MSDA"
+MIR_liberal_socialist_party_long:0 "Mirninskiy sotsial-demokraticheskiy al'yans"
+
+MIR_liberal_dem_party:0 "FPoM"
+MIR_liberal_dem_party_long:0 "Partiya Svobody Mirnogo"
+
+MIR_conservative_dem_party:0 "MDF"
+MIR_conservative_dem_party_long:0 "Mirninskiy Demokraticheskiy Front"
+
+MIR_authoritarianist_party:0 "Administration Council"
+MIR_authoritarianist_party_long:0 "Administration Council"
+
+MIR_populist_party:0 "SFNO"
+MIR_populist_party_long:0 "Sibirskiy front natsional'nogo osvobozhdeniya"
+
+MIR_mysticist_party:0 "Shamanists"
+MIR_mysticist_party_long:0 "Siberian Shamanists"
+
+###Russian Party Names###
+
+RSA_radical_socialist_party:0 "Bolsheviki"
+RSA_radical_socialist_party_long:0 "Bolsheviki"
+
+RSA_liberal_socialist_party:0 "Menshiviki"
+RSA_liberal_socialist_party_long:0 "Menshiviki"
+
+RSA_liberal_dem_party:0 "Kadets"
+RSA_liberal_dem_party_long:0 "Constitutional Democratic Party"
+
+RSA_conservative_dem_party:0 "RCU"
+RSA_conservative_dem_party_long:0 "Russian Constitutional Union"
+
+RSA_authoritarianist_party:0 "Aristocracy"
+RSA_authoritarianist_party_long:0 "Aristocracy"
+
+RSA_populist_party:0 "BH"
+RSA_populist_party_long:0 "Black Hundreds"
+
+RSA_mysticist_party:0 "TSF"
+RSA_mysticist_party_long:0 "The Sovereign Flame"

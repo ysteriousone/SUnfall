@@ -1,0 +1,26 @@
+state={
+	id=1063
+	name="STATE_1063"
+
+	history = {
+
+		owner = UKG
+		#add_core_of = MAL
+
+		buildings = {
+			infrastructure = 1
+			13430 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		13430 
+	}
+	manpower=2100
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

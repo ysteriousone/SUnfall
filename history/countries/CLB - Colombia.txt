@@ -1,0 +1,30 @@
+capital = 2
+
+oob = "PAS_1936"
+
+set_politics = {
+  ruling_party = mysticist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_party_name = { 
+   
+}
+
+
+set_popularities = {
+    populist = 0
+    conservative_dem = 12
+    liberal_dem = 0
+    authoritarianist = 18
+    liberal_socialist = 2
+    radical_socialist = 2
+    mysticist = 66
+}
+
+recruit_character = 
+
+
+

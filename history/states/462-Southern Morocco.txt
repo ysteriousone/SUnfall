@@ -1,0 +1,27 @@
+state = {
+	id = 462
+	name = "STATE_462"
+	manpower = 1865552
+	
+	state_category = wasteland
+
+	history = {
+
+		owner = MRO
+		add_core_of = MRO
+
+		victory_points = {
+			4108 3 # Marrakesh
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		1152 1207 1989 4108 8046 10107 
+	}
+
+	local_supplies = 0.0 
+}

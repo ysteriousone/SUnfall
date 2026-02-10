@@ -1,0 +1,4 @@
+graphical_culture = australian_gfx
+graphical_culture_2d = australian_2d
+
+color = { 10 56 52 }

@@ -1,0 +1,252 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_Bundesrat_BG"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_BG.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_AZS"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_AZS.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_BDN"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_BDN.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_BNS"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_BNS.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_BRN"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_BRN.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_BYR"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_BYR.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_HMB"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_HMB.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_HNV"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_HNV.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_HSS"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_HSS.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_KRN"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_KRN.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_MCK"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_MCK.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_OST"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_OST.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_POM"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_POM.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_RHN"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_RHN.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_SAA"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_SAA.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_SAC"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_SAC.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_THU"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_THU.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_TIR"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_TIR.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_WPL"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_WPL.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_Bundesrat_WTT"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/bundesrat_WTT.dds"
+		transparencecheck = yes
+	}
+
+	progressbartype = {
+		name = "GFX_BR_support_bar"
+		texturefile1 = "gfx/interface/GUIs/RGD_Bundesrat/bars/BR_green_bar.dds"
+		texturefile2 = "gfx/interface/GUIs/RGD_Bundesrat/bars/BR_red_bar.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 458
+			y = 37
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+		steps = 100
+	}
+
+	spriteType = {
+		name = "GFX_BR_BYR_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_BYR_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_AZS_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_AZS_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_BDN_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_BDN_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_BNS_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_BNS_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_BRN_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_BRN_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_HMB_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_HMB_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_HNV_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_HNV_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_HSS_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_HSS_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_KRN_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_KRN_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_MCK_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_MCK_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_OST_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_OST_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_POM_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_POM_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_RHN_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_RHN_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_SAA_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_SAA_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_SAC_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_SAC_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_THU_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_THU_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_TIR_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_TIR_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_WPL_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_WPL_coa.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_BR_WTT_coa"
+		textureFile = "/gfx/interface/GUIs/RGD_Bundesrat/coa/BR_WTT_coa.dds"
+		transparencecheck = yes
+	}
+
+}

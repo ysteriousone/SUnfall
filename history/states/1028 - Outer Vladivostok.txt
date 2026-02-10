@@ -1,0 +1,24 @@
+state={
+	id=1028
+	name="STATE_1028"
+
+	history = {
+
+		owner = MAU
+
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = MAU
+
+	}
+
+	provinces={
+		4290 4805 7672 10571 10722 12192 12263
+	}
+	state_category = pastoral
+	manpower=48777
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

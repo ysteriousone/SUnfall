@@ -1,0 +1,26 @@
+capital = 192
+
+#oob = "UFT_1936"
+
+set_politics = {
+  ruling_party = radical_socialist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_popularities = {
+    populist = 7
+    conservative_dem = 0
+    liberal_dem = 0
+    authoritarianist = 16
+    liberal_socialist = 4
+    radical_socialist = 70
+    mysticist = 3
+}
+
+recruit_character = UFT_nestor_makhno
+
+#add_ideas = {
+#	closed_economy
+#}

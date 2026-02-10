@@ -1,0 +1,32 @@
+
+state={
+	id=1018
+	name="STATE_1018" # Northern Hungary
+	manpower = 2050752
+	resources={
+		steel=6 #was 3 was: 4
+		aluminium=40 # was: 194
+	}
+	
+	state_category = large_city
+
+	history={
+		owner = HSR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 4
+			air_base = 4
+		}
+		victory_points = {
+			9660 20 
+		}
+		add_core_of = HSR
+	}
+
+	provinces={
+		716 9660 11663 13376
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,35 @@
+state={
+	id=697
+	name="STATE_697"
+	manpower = 211600
+	
+	state_category = small_island
+
+	history={
+<<<<<<< HEAD
+		owner = POS
+=======
+		owner = POR
+>>>>>>> d3cc7b794883a81832f0e4a4994a29f7219150e5
+		victory_points = {
+			3118 1
+		}
+		buildings = {
+			infrastructure = 2
+			3118 = {
+				naval_base = 1
+			}
+		}
+<<<<<<< HEAD
+		add_core_of = POS
+=======
+		add_core_of = POR
+>>>>>>> d3cc7b794883a81832f0e4a4994a29f7219150e5
+	}
+	
+	provinces={
+		3118 
+	}
+
+	local_supplies=0.0 
+}

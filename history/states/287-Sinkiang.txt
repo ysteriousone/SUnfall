@@ -1,0 +1,24 @@
+state={
+	id=287
+	name="STATE_287"
+
+	history={
+		owner = TIB
+		add_core_of = TIB
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			4973 1
+		}
+	}
+
+	provinces={
+		1943 1970 4973 5016 5087 7790 8042 8086 8112 10315 10865 10885 10911 12864 
+	}
+	manpower=408000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=4.000
+}

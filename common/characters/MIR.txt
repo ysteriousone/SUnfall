@@ -1,0 +1,14 @@
+characters = {
+	MIR_wragnel = {
+		name = "Pyotr Wrangel"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MIR/portrait_wragnel.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_auth_sub
+			expire = "1965.1.1.1"
+		}
+	}
+}

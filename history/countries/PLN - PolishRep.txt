@@ -1,0 +1,36 @@
+capital = 10
+
+#oob = "DPF_1936"
+
+set_politics = {
+  ruling_party = authoritarianist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_party_name = { 
+   
+}
+
+
+set_popularities = {
+    populist = 1
+    conservative_dem = 47
+    liberal_dem = 0
+    authoritarianist = 52
+    liberal_socialist = 0
+    radical_socialist = 0
+    mysticist = 0
+}
+
+set_autonomy = {
+    target = DAN
+    autonomous_state = autonomy_mandate
+}
+
+
+recruit_character = PLN_pilsudski
+
+
+

@@ -1,0 +1,25 @@
+spriteTypes = {	
+
+	### Ideas ###
+	
+	SpriteType = {
+		name = "GFX_idea_COU_baltic_germans"
+		texturefile = "gfx/interface/ideas/COU/cou_baltic_germans.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_COU_forest_brothers"
+		texturefile = "gfx/interface/ideas/COU/cou_forest_brothers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_COU_landswehr"
+		texturefile = "gfx/interface/ideas/COU/cou_landswehr.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_COU_knights"
+		texturefile = "gfx/interface/ideas/COU/cou_knights.dds"
+	}
+	
+}

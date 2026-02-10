@@ -1,0 +1,61 @@
+ideas = {
+	country = {
+		MIR_white_barons_grip = {
+			picture = MIR_iron_grip
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.15
+				stability_weekly = -0.01
+				war_support_weekly = -0.01
+			}
+		}
+		
+		MIR_never_ending_fight = {
+			picture = MIR_eternal_struggle
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.10
+				local_resources_factor = 0.25
+				stability_factor = -0.05
+			}
+		}
+		
+		MIR_supplying_base = {
+			picture = MIR_supplying_camps
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				authoritarianist_drift = 0.01
+				weekly_manpower = 250
+			}
+		}
+	
+	}
+}

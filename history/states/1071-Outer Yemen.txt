@@ -1,0 +1,30 @@
+state={
+	id=1071
+	name="STATE_1071"
+
+	history = {
+
+		owner = OTY
+		add_core_of = OTY
+
+		victory_points = {
+			1920 1 # Harad
+		}
+
+		buildings = {
+			infrastructure = 1
+			1920 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		 1920
+	}
+	manpower=1200
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

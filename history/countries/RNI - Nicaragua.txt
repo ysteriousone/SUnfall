@@ -1,0 +1,31 @@
+capital = 317
+
+#oob = "TBU_1936"
+
+set_politics = {
+  ruling_party = authoritarianist
+  last_election = "1933.1.1"
+  election_frequency = 48
+  elections_allowed = no
+}
+
+set_party_name = { 
+   
+}
+
+
+set_popularities = {
+    populist = 0
+    conservative_dem = 0
+    liberal_dem = 0
+    authoritarianist = 50
+    liberal_socialist = 0
+    radical_socialist = 0
+    mysticist = 50
+}
+
+
+#recruit_character = UKG_herbert_kitchener
+
+
+
